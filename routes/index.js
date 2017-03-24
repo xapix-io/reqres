@@ -91,11 +91,12 @@ module.exports = {
 
 function returnAll(items, req, res) {
 	var page = req.query.page || 1,
-		offset = (page - 1) * config.pagination.page_size,
-		paginatedItems = _.rest(items, offset).slice(0, config.pagination.page_size);
+		pageSize = req.query.per_page || config.pagination.page_size,
+		offset = (page - 1) * pageSize,
+		paginatedItems = _.rest(items, offset).slice(0, pageSize);
 	return res.status(200).send({
 		page: page,
-		per_page: config.pagination.page_size,
+		per_page: pageSize,
 		total: items.length,
 		total_pages: Math.ceil(items.length / config.pagination.page_size),
 		data: paginatedItems
