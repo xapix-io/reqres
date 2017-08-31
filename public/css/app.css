@@ -4,6 +4,7 @@
   border: 0;
   font: inherit;
   vertical-align: baseline;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html, body {
@@ -22,7 +23,7 @@ p {
 a {
   color: inherit;
   -webkit-transition: .2s;
-          transition: .2s; }
+  transition: .2s; }
 
 strong {
   font-weight: 500; }
@@ -48,7 +49,6 @@ h3 {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
 .t-center {
@@ -109,11 +109,9 @@ hr {
   0% {
     -webkit-transform: translateY(3px);
             transform: translateY(3px); }
-
   50% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); }
-
   100% {
     -webkit-transform: translateY(3px);
             transform: translateY(3px); } }
@@ -122,11 +120,9 @@ hr {
   0% {
     -webkit-transform: translateY(3px);
             transform: translateY(3px); }
-
   50% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); }
-
   100% {
     -webkit-transform: translateY(3px);
             transform: translateY(3px); } }
@@ -150,7 +146,7 @@ hr {
       font-size: 36px;
       margin-bottom: 12px;
       color: #fff;
-      background-image: -webkit-linear-gradient(270deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 67, 143, 0.85)), color-stop(75%, rgba(88, 58, 117, 0.85)));
       background-image: linear-gradient(-180deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
@@ -169,11 +165,12 @@ span.code {
 .header-content {
   position: relative;
   background-color: #2A438F;
-  background-image: -webkit-linear-gradient(270deg, #2a438f 0%, #583a75 75%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a438f), color-stop(75%, #583a75));
   background-image: linear-gradient(-180deg, #2a438f 0%, #583a75 75%);
   background-size: cover;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-  box-shadow: inset 0 -2px 2px -2px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0 -2px 2px -2px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 -2px 2px -2px rgba(0, 0, 0, 0.8);
   overflow: auto;
   padding-bottom: 96px; }
 
@@ -197,7 +194,8 @@ span.code {
     border-radius: 110px;
     text-align: center;
     overflow: hidden;
-    box-shadow: 0 3px 1px 0 rgba(31, 17, 51, 0.8), inset 0 -1px 3px -2px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 0 3px 1px 0 rgba(31, 17, 51, 0.8), inset 0 -1px 3px -2px rgba(255, 255, 255, 0.4);
+            box-shadow: 0 3px 1px 0 rgba(31, 17, 51, 0.8), inset 0 -1px 3px -2px rgba(255, 255, 255, 0.4);
     -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
             mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); }
     @media only screen and (max-width: 900px) {
@@ -228,11 +226,9 @@ span.code {
   0% {
     -webkit-transform: scale(1.25) rotate(325deg);
             transform: scale(1.25) rotate(325deg); }
-
   50% {
     -webkit-transform: scale(4.25) rotate(355deg);
             transform: scale(4.25) rotate(355deg); }
-
   100% {
     -webkit-transform: scale(3.25) rotate(345deg);
             transform: scale(3.25) rotate(345deg); } }
@@ -241,11 +237,9 @@ span.code {
   0% {
     -webkit-transform: scale(1.25) rotate(325deg);
             transform: scale(1.25) rotate(325deg); }
-
   50% {
     -webkit-transform: scale(4.25) rotate(355deg);
             transform: scale(4.25) rotate(355deg); }
-
   100% {
     -webkit-transform: scale(3.25) rotate(345deg);
             transform: scale(3.25) rotate(345deg); } }
@@ -286,7 +280,7 @@ span.code {
       padding: 12px;
       font-size: 14px;
       -webkit-transition: .2s;
-              transition: .2s;
+      transition: .2s;
       text-align: right; }
       @media only screen and (max-width: 900px) {
         .console .endpoints li {
@@ -300,7 +294,7 @@ span.code {
           height: 76px;
           margin-bottom: 4px;
           -webkit-transition: background-color .2s;
-                  transition: background-color .2s;
+          transition: background-color .2s;
           border: 1px solid rgba(95, 69, 120, 0.1);
           border-radius: 3px; } }
       .console .endpoints li:last-of-type {
@@ -309,8 +303,8 @@ span.code {
           .console .endpoints li:last-of-type {
             border-bottom: 1px solid #F2E8FF; } }
       .console .endpoints li.active {
-        background-image: -webkit-linear-gradient(0deg, rgba(231, 213, 255, 0.5) 0%, white 90%);
-        background-image: linear-gradient(90deg, rgba(231, 213, 255, 0.5) 0%, white 90%); }
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(231, 213, 255, 0.5)), color-stop(90%, #fff));
+        background-image: linear-gradient(90deg, rgba(231, 213, 255, 0.5) 0%, #fff 90%); }
         @media only screen and (max-width: 900px) {
           .console .endpoints li.active {
             font-weight: 500;
@@ -321,7 +315,7 @@ span.code {
         content: attr(data-http);
         text-transform: uppercase;
         font-size: 14px;
-        background-image: -webkit-linear-gradient(270deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 67, 143, 0.85)), color-stop(75%, rgba(88, 58, 117, 0.85)));
         background-image: linear-gradient(-180deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
         color: #fff;
         border-radius: 3px;
@@ -367,7 +361,6 @@ span.code {
         .console .output .request .request-title i, .console .output .request .response-title i, .console .output .response .request-title i, .console .output .response .response-title i {
           font-size: 56px;
           -webkit-transform: scale(3.25) rotate(345deg);
-              -ms-transform: scale(3.25) rotate(345deg);
                   transform: scale(3.25) rotate(345deg);
           color: rgba(231, 213, 255, 0.15);
           position: absolute;
@@ -426,7 +419,6 @@ pre {
   .getting-started > i {
     font-size: 300px;
     -webkit-transform: scale(3.25) rotate(345deg);
-        -ms-transform: scale(3.25) rotate(345deg);
             transform: scale(3.25) rotate(345deg);
     color: rgba(231, 213, 255, 0.15);
     position: absolute;
@@ -447,7 +439,7 @@ pre {
       display: inline-block;
       font-size: 14px;
       margin-bottom: 12px;
-      background-image: -webkit-linear-gradient(270deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 67, 143, 0.85)), color-stop(75%, rgba(88, 58, 117, 0.85)));
       background-image: linear-gradient(-180deg, rgba(42, 67, 143, 0.85) 0%, rgba(88, 58, 117, 0.85) 75%);
       color: #fff;
       border-radius: 3px;
@@ -462,7 +454,6 @@ pre {
   .peace-of-mind > i {
     font-size: 60px;
     -webkit-transform: scale(3.25) rotate(345deg);
-        -ms-transform: scale(3.25) rotate(345deg);
             transform: scale(3.25) rotate(345deg);
     color: rgba(231, 213, 255, 0.15);
     position: absolute;
@@ -497,32 +488,25 @@ pre {
 @-webkit-keyframes cubemove {
   25% {
     -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
-
   50% {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
-
   75% {
     -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
-
   100% {
     -webkit-transform: rotate(-360deg); } }
 @keyframes cubemove {
   25% {
     transform: translateX(42px) rotate(-90deg) scale(0.5);
     -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
-
   50% {
     transform: translateX(42px) translateY(42px) rotate(-179deg);
     -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg); }
-
   50.1% {
     transform: translateX(42px) translateY(42px) rotate(-180deg);
     -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
-
   75% {
     transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
     -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
-
   100% {
     transform: rotate(-360deg);
     -webkit-transform: rotate(-360deg); } }

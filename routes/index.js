@@ -1,6 +1,5 @@
 var data = require("./../data.json"),
-	config = require("./../config.json"),
-	_ = require("lodash");
+	config = require("./../config.json");
 
 module.exports = {
 
@@ -90,15 +89,15 @@ module.exports = {
 };
 
 function returnAll(items, req, res) {
-	var page = req.query.page || 1,
-		pageSize = req.query.per_page || config.pagination.page_size,
+	var page = parseInt(req.query.page, 10) || 1,
+		pageSize = parseInt(req.query.per_page, 10) || config.pagination.page_size,
 		offset = (page - 1) * pageSize,
-		paginatedItems = _.rest(items, offset).slice(0, pageSize);
+		paginatedItems = items.slice(offset, offset + pageSize);
 	return res.status(200).send({
 		page: page,
 		per_page: pageSize,
 		total: items.length,
-		total_pages: Math.ceil(items.length / config.pagination.page_size),
+		total_pages: Math.ceil(items.length / pageSize),
 		data: paginatedItems
 	});
 }

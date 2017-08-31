@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 var routes = require("./routes/");
 
-app.all("/api/*", [bodyParser(),
+app.all("/api/*", [
 	function(req, res, next) {
 		if (req.query && req.query.delay) {
 			var delay = req.query.delay;
@@ -91,6 +91,6 @@ var server = app.listen(port, function() {
 	var host = server.address().address,
 		port = server.address().port;
 
-	console.log("Example app listening at http://%s:%s", host, port);
+	console.log("reqres app listening at http://%s:%s", host, port);
 
 });
