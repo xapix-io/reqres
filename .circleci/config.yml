@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: 312707417434.dkr.ecr.us-east-1.amazonaws.com/xapixio/docker-kops-helm:latest
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          name: Build docker image
+          type: shell
+          command: |
+            docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+            echo "$CIRCLE_SHA1" > REVISION
+            docker build -t xapixio/reqres:$CIRCLE_SHA1 -t xapixio/reqres:develop .
+            docker push xapixio/reqres:$CIRCLE_SHA1
+            docker push xapixio/reqres:develop
