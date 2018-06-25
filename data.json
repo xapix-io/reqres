@@ -73,6 +73,19 @@
 		"weight": 2310,
 		"gmv": 0,
 		"length": 0
+	},{
+		"id": 2,
+		"vin": "1NXBR00E5WZ000001",
+		"make": "TOYT",
+		"model": "Camry",
+		"year": 2005,
+		"trim": "LE",
+		"body": "4D",
+		"color": "BGE",
+		"class-code": "001",
+		"weight": 2310,
+		"gmv": 0,
+		"length": 0
 	}],
 	"unknown": [{
 		"id": 1,
