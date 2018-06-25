@@ -6,7 +6,7 @@ USER box
 RUN mkdir -p /home/box/reqres
 WORKDIR /home/box/reqres
 
-ADD --chown=box:box package.json package-lock.json ./
+ADD --chown=box:box package.json yarn.lock ./
 RUN yarn install --only=production
 
 COPY --chown=box:box . .
