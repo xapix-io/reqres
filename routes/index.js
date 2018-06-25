@@ -1,5 +1,19 @@
+const csv = require('csvtojson');
+const glob = require("glob");
+const path = require('path');
+
 var data = require("./../data.json"),
 	config = require("./../config.json");
+
+glob("./data/*.csv", (er, files)=> {
+	files.forEach(file => {
+		csv().fromFile(file).then( (jsonObj)=> {
+			var dataSection = path.basename(file, '.csv')
+			data[dataSection] = jsonObj
+			console.log("loaded " + dataSection)
+		})
+	})
+})
 
 module.exports = {
 
