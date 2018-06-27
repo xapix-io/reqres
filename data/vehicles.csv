@@ -1,3 +1,5 @@
 "id","vin","make","model","year","trim","body","color","class-code","weight","gmv","length"
-1,"1NXBR00E5WZ000000","TOYT","Corolla",2005,"LE","4D","BGE","001",2310,0,0
-2,"1NXBR00E5WZ000001","TOYT","Camry",2005,"LE","4D","BGE","001",2310,0,0
+1,"1NXBR00E5WZ000000","MCBZ","Actros",2005,"LE","4D","BGE","001",2310,0,0
+2,"1NXBR00E5WZ000001","MCBZ","Atego",1997,"LE","4D","BGE","001",2310,0,0
+3,"1NXBR00E5WZ000002","MCBZ","Antos",2012,"LE","4D","BGE","001",2310,0,0
+4,"1NXBR00E5WZ000003","MCBZ","Econic",2010,"LE","4D","BGE","001",2310,0,0
