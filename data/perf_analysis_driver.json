@@ -1,0 +1,1190 @@
+{
+  "avg_values": {
+    "weight": "26",
+    "speed": "21.64",
+    "overall_consumption": "0.2701",
+    "drive_consumption": "0.2676"
+  },
+  "braking_distance": "15",
+  "charts": {
+    "bar_charts": [
+      {
+        "chart_name": "BrakingDistance",
+        "values": [
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "5.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "66.67"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.01"
+            }
+          },
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "10.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "26.67"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0040"
+            }
+          },
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "15.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "6.67"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0010"
+            }
+          },
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "25.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "0.0"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0"
+            }
+          },
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "40.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "0.0"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0"
+            }
+          },
+          {
+            "x": {
+              "@unit": "percent",
+              "@value": "70.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "0.0"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0"
+            }
+          },
+          {
+            "x": {
+              "@value": "0.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "0.0"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0"
+            }
+          }
+        ]
+      },
+      {
+        "chart_name": "RetarderBrakingDistance",
+        "values": [
+          {
+            "x": {
+              "@value": "0.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "43.86"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.025"
+            }
+          },
+          {
+            "x": {
+              "@value": "1.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "26.32"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.015"
+            }
+          },
+          {
+            "x": {
+              "@value": "2.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "7.02"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0040"
+            }
+          },
+          {
+            "x": {
+              "@value": "3.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "7.02"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0040"
+            }
+          },
+          {
+            "x": {
+              "@value": "4.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "15.79"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.0090"
+            }
+          }
+        ]
+      },
+      {
+        "chart_name": "SpeedClassification",
+        "values": [
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "20.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "0.43"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.014"
+            }
+          },
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "40.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "1.74"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.056"
+            }
+          },
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "60.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "1.36"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.044"
+            }
+          },
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "80.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "2.2"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.071"
+            }
+          },
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "100.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "4.4"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.142"
+            }
+          },
+          {
+            "x": {
+              "@unit": "kmh",
+              "@value": "120.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "81.68"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "2.635"
+            }
+          },
+          {
+            "x": {
+              "@value": "0.0"
+            },
+            "y1": {
+              "@unit": "percent",
+              "@value": "8.18"
+            },
+            "y2": {
+              "@unit": "km",
+              "@value": "0.264"
+            }
+          }
+        ]
+      }
+    ],
+    "engine_operation_charts": [
+      {
+        "chart_name": "EngineAllGears",
+        "rows": [
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "9.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "85.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "70.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "7.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "55.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "18.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "40.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "2.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1400",
+                "@value": "55.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "25.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "11.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "10.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "4.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "chart_name": "EngineHighestGear",
+        "rows": [
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "6.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "85.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "70.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "7.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "55.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "18.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "40.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1400",
+                "@value": "55.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "25.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "11.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "10.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "chart_name": "EngineWithoutHighestGear",
+        "rows": [
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "3.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "85.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "70.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "55.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1400",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "40.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "1",
+                "@number_of_revolutions": "1400",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "25.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@unit": "percent",
+            "@value": "10.0"
+          },
+          {
+            "cells": [
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "800",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1000",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "2",
+                "@number_of_revolutions": "1200",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1400",
+                "@value": "1.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1600",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@number_of_revolutions": "1800",
+                "@value": "0.0"
+              },
+              {
+                "@eco_rating": "0",
+                "@value": "0.0"
+              }
+            ],
+            "@value": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  "consumption": {
+    "drive_consumption": "863.0",
+    "total_consumption": "871.0",
+    "idle_consumption": "8.0"
+  },
+  "contains_vehicle_data_set_list": "FALSE",
+  "cruise_control_distance": "2532",
+  "driver_name_id": "280851600005",
+  "grades": {
+    "driving_style": "9.64",
+    "driving_style_cons": "9.64",
+    "driving_style_cons_preventive": "10.0",
+    "driving_style_cons_engine_operation_mn": "9.46",
+    "driving_style_cons_pedal_movements": "8.65",
+    "driving_style_cons_uniform_speed": "10.0",
+    "driving_style_cons_stops": "10.0",
+    "driving_style_brake": "9.63",
+    "driving_style_brake_preventive": "10.0",
+    "driving_style_brake_deceleration": "9.27",
+    "degree_of_difficulty": "3.96",
+    "degree_of_difficulty_average_slope": "4.2",
+    "degree_of_difficulty_weight": "5.5",
+    "degree_of_difficulty_stops": "1.0",
+    "torque_classification": "9.46"
+  },
+  "id": "5236301400005",
+  "moving_time": "149",
+  "nr_of_stops": "0",
+  "period": {
+    "begin": "2017-11-14 15:15:00",
+    "end": "2017-11-14 15:17:00",
+    "period": {
+      "time_range": {
+        "model": "ONLY_RECENT_MESSAGES"
+      }
+    }
+  },
+  "power_take_off": {
+    "pto1": "0",
+    "pto2": "0",
+    "pto3": "0"
+  },
+  "retarder_braking_distance": "57",
+  "speed_over85_per_total_distance": "8.19",
+  "stop_time_engine_off": "0",
+  "stop_time_engine_on": "1",
+  "total_coasting_distance": "577",
+  "total_distance": "3225",
+  "vehicle_id": "2781100060"
+}
