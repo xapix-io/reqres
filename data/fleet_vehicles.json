@@ -1,0 +1,27 @@
+[
+  {
+    "id": "2794600060",
+    "chassis": "VF128802598450919",
+    "fleetvehicle": {
+      "fleetid": "2916500005",
+      "vehiclenumber": "Vehicle 0156 - Renault_TP4",
+      "insmsisdn": "+9995966203778",
+      "starttime": "2017-05-12 10:04:52",
+      "endtime": "2100-12-30 00:00:00",
+      "vehicletype": "TiiRec standard equipment",
+      "status": "1"
+    },
+    "groupvehicle": null,
+    "telematicgroup": "AM",
+    "vehiclehardware": [
+      {
+        "hardware": "DCTP/FMS",
+        "hardwareid": "16"
+      },
+      {
+        "hardware": "DCFAP/FMS",
+        "hardwareid": "128"
+      }
+    ]
+  }
+]

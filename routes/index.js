@@ -15,6 +15,15 @@ glob("./data/*.csv", (er, files)=> {
 	})
 })
 
+glob("./data/*.json", (er, files)=> {
+	files.forEach(file => {
+		var jsonObj = require("./../" + file)
+		var dataSection = path.basename(file, '.json')
+		data[dataSection] = jsonObj
+		console.log("loaded " + dataSection)
+	})
+})
+
 module.exports = {
 
 	get: function(req, res, next) {
