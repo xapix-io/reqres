@@ -107,8 +107,11 @@ module.exports = {
 
 	logout: function(req, res, next) {
 		return res.status(200).send({});
-	}
+	},
 
+	inspect: function(req, res, next) {
+		return res.status(200).send({body: req.rawBody, headers: req.headers, url: req.url});
+	}
 };
 
 function returnAll(items, req, res) {
