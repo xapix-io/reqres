@@ -1,0 +1,18 @@
+{
+  "28350000": {
+    "details": {
+      "bezeichnung": "Sparkasse Aurich-Norden",
+      "bic": "BRLADE21ANO",
+      "ort": "Aurich, Ostfriesland",
+      "plz": "26584"
+    }
+  },
+  "50010517": {
+    "details": {
+      "bezeichnung": "ING-DiBa",
+      "bic": "INGDDEFFXXX",
+      "ort": "Frankfurt am Main",
+      "plz": "60628"
+    }
+  }
+}
