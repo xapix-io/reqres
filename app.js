@@ -1,5 +1,6 @@
 var express = require("express"),
 	bodyParser = require("body-parser"),
+	soap = require("strong-soap").soap,
 	hbs = require("hbs"),
 	path = require("path"),
 	cors = require("cors"),
@@ -7,9 +8,9 @@ var express = require("express"),
 	port = process.env.PORT || 5000;
 
 var getRandomInteger = function(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min)) + min;
 }
 
 app.use(bodyParser.urlencoded({
@@ -109,3 +110,23 @@ var server = app.listen(port, function() {
 });
 
 module.exports = server
+
+// SOAP
+
+var BLZService = {
+	BLZService: {
+		BLZServiceSOAP11port_http: {
+			getBank: function(args) {
+				return {
+					details: {
+						bezeichnung: "ING-DiBa",
+							bic: "INGDDEFFXXX",
+							ort: "Frankfurt am Main",
+							plz: "60628" } } }
+		}
+	}
+};
+
+var xml = require('fs').readFileSync('./soap-data/BLZServiceSOAP11Only.xml', 'utf8');
+
+soap.listen(server, '/soap/blz', BLZService, xml);
