@@ -13,11 +13,25 @@ var getRandomInteger = function(min, max) {
 	return Math.floor(Math.random() * (max - min)) + min;
 }
 
+var rawBodySaver = function(req, res, buf, encoding) {
+	if(buf && buf.length) {
+		req.rawBody = buf.toString(encoding || 'utf8');
+	}
+}
+
 app.use(bodyParser.urlencoded({
-	extended: false
+	extended: false,
+	verify: rawBodySaver
 }));
 
-app.use(bodyParser.json());
+app.use(bodyParser.json({
+	verify: rawBodySaver
+}));
+
+app.use(bodyParser.raw({
+	type: '*/*',
+	verify: rawBodySaver
+}));
 
 app.use(cors());
 
@@ -86,6 +100,12 @@ app.delete("/api/:resource", routes.delete);
 
 app.get("/secure/api/:resource/*", routes.get);
 app.get("/secure/api/:resource", routes.get);
+
+app.get("/inspect", routes.inspect);
+app.post("/inspect", routes.inspect);
+app.put("/inspect", routes.inspect);
+app.patch("/inspect", routes.inspect);
+app.delete("/inspect", routes.inspect);
 
 app.use(function(req, res, next) {
 	res.status(404);
