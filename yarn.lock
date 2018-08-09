@@ -2857,8 +2857,8 @@ strong-globalize@^3.2.0:
     yamljs "^0.3.0"
 
 strong-soap@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.11.0.tgz#cff0e70857f13ba0dafc8a68ac44d57b55a743b9"
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.12.1.tgz#af768d02bbfb708218bf355fab355c1d42daca97"
   dependencies:
     compress "^0.99.0"
     debug "^3.1.0"
