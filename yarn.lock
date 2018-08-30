@@ -12,6 +12,25 @@
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@kyleshockey/object-assign-deep/-/object-assign-deep-0.4.2.tgz#84900f0eefc372798f4751b5262830b8208922ec"
 
+"@types/chai@4":
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.4.tgz#5ca073b330d90b4066d6ce18f60d57f2084ce8ca"
+
+"@types/cookiejar@*":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.0.tgz#4b7daf2c51696cfc70b942c11690528229d1a1ce"
+
+"@types/node@*":
+  version "10.9.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.3.tgz#85f288502503ade0b3bfc049fe1777b05d0327d5"
+
+"@types/superagent@^3.8.3":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-3.8.4.tgz#24a5973c7d1a9c024b4bbda742a79267c33fb86a"
+  dependencies:
+    "@types/cookiejar" "*"
+    "@types/node" "*"
+
 accept-language@^3.0.18:
   version "3.0.18"
   resolved "https://registry.yarnpkg.com/accept-language/-/accept-language-3.0.18.tgz#f5025f17bf65a466a845838ccf98cdb877d83384"
@@ -401,9 +420,11 @@ center-align@^0.1.1:
     lazy-cache "^1.0.3"
 
 chai-http@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/chai-http/-/chai-http-4.0.0.tgz#810f579e98ae9d7847701759de7682361f2f286f"
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/chai-http/-/chai-http-4.2.0.tgz#25dc0c0cf9560802f069092ca834a81f04c673bc"
   dependencies:
+    "@types/chai" "4"
+    "@types/superagent" "^3.8.3"
     cookiejar "^2.1.1"
     is-ip "^2.0.0"
     methods "^1.1.2"
