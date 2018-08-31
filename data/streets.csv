@@ -1,6 +1,6 @@
-street_name;min_long;min_lat;max_long;max_lat;speed_limit;wildlife_traffic;people_traffic;car_traffic
-Rosenthaler Straße;13.401494;52.523636;13.403790;52.529106;50;5;100;82
-Neue Schönhauser Straße;13.403768;52.524563;13.406644;52.524994;30;0;97;76
-Memhardstraße;13.406601;52.523740;13.411321;52.524968;50;0;83;64
-Oranienburger Straße;13.396473;52.523505;13.401730;52.524197;30;10;100;86
-Torstraße;13.400721;52.528897;13.409540;52.529941;50;0;100;93
+street_name,min_long,min_lat,max_long,max_lat,speed_limit,wildlife_traffic,people_traffic,car_traffic
+Rosenthaler Straße,13.401494,52.523636,13.403790,52.529106,50,5,100,82
+Neue Schönhauser Straße,13.403768,52.524563,13.406644,52.524994,30,0,97,76
+Memhardstraße,13.406601,52.523740,13.411321,52.524968,50,0,83,64
+Oranienburger Straße,13.396473,52.523505,13.401730,52.524197,30,10,100,86
+Torstraße,13.400721,52.528897,13.409540,52.529941,50,0,100,93
