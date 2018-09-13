@@ -1,0 +1,1042 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:customer:NewCustomer",
+  "properties" : {
+    "policyConsents" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:consent:PolicyConsent",
+        "properties" : {
+          "interfaceSchemaVersion" : {
+            "type" : "integer"
+          },
+          "timeStamp" : {
+            "type" : "any",
+            "required" : true
+          },
+          "policyId" : {
+            "type" : "string",
+            "required" : true
+          },
+          "majorVersion" : {
+            "type" : "integer"
+          },
+          "minorVersion" : {
+            "type" : "integer"
+          },
+          "policyVersion" : {
+            "type" : "string"
+          },
+          "policyLanguage" : {
+            "type" : "string"
+          },
+          "usageConsents" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:consent:UsageConsent",
+              "properties" : {
+                "usageId" : {
+                  "type" : "string"
+                },
+                "value" : {
+                  "type" : "boolean"
+                },
+                "consentedAt" : {
+                  "type" : "any"
+                },
+                "policyReferenceId" : {
+                  "type" : "integer"
+                }
+              }
+            }
+          },
+          "customExtension" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension",
+            "properties" : {
+              "parameters" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "object",
+                  "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension:Parameter",
+                  "properties" : {
+                    "key" : {
+                      "type" : "string"
+                    },
+                    "value" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "policyVersionCurrent" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:PolicyVersion",
+            "properties" : {
+              "interfaceSchemaVersion" : {
+                "type" : "integer"
+              },
+              "policyReferenceId" : {
+                "type" : "integer"
+              },
+              "policyId" : {
+                "type" : "string"
+              },
+              "minorVersion" : {
+                "type" : "integer"
+              },
+              "majorVersion" : {
+                "type" : "integer"
+              },
+              "newMajorVersion" : {
+                "type" : "boolean"
+              },
+              "validFrom" : {
+                "type" : "any"
+              },
+              "languageElements" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "object",
+                  "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:LanguageElementType",
+                  "properties" : {
+                    "language" : {
+                      "type" : "string"
+                    },
+                    "policyElements" : {
+                      "type" : "array",
+                      "items" : {
+                        "type" : "object",
+                        "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:PolicyElementType",
+                        "properties" : {
+                          "sequencePosition" : {
+                            "type" : "integer"
+                          },
+                          "usageBlock" : {
+                            "type" : "object",
+                            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:UsageBlockType",
+                            "properties" : {
+                              "policyText" : {
+                                "type" : "object",
+                                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:UsageBlockType:PolicyText",
+                                "properties" : {
+                                  "value" : {
+                                    "type" : "string"
+                                  }
+                                }
+                              },
+                              "usageIDs" : {
+                                "type" : "array",
+                                "items" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "salutation" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:customer:Salutation",
+      "properties" : {
+        "firstName" : {
+          "type" : "string"
+        },
+        "honorific" : {
+          "type" : "string",
+          "enum" : [ "MS", "MR" ]
+        },
+        "lastName" : {
+          "type" : "string"
+        },
+        "nickname" : {
+          "type" : "string"
+        }
+      }
+    },
+    "businessPartner" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner",
+      "properties" : {
+        "gcid" : {
+          "type" : "string",
+          "maxLength" : 36
+        },
+        "partnerCategory" : {
+          "type" : "string",
+          "required" : true,
+          "enum" : [ "PERSON", "ORGANISATION" ]
+        },
+        "surname" : {
+          "type" : "string",
+          "required" : true,
+          "maxLength" : 40
+        },
+        "givenName" : {
+          "type" : "string",
+          "required" : true,
+          "maxLength" : 40
+        },
+        "middleName" : {
+          "type" : "string",
+          "maxLength" : 40
+        },
+        "nickname" : {
+          "type" : "string"
+        },
+        "title" : {
+          "type" : "string",
+          "required" : true
+        },
+        "birthday" : {
+          "type" : "any"
+        },
+        "birthdayDelete" : {
+          "type" : "boolean"
+        },
+        "contactChannelAreaSpecs" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:ContactChannelAreaSpec",
+            "properties" : {
+              "contactChannel" : {
+                "type" : "string"
+              },
+              "usageArea" : {
+                "type" : "string"
+              },
+              "delete" : {
+                "type" : "boolean"
+              }
+            }
+          }
+        },
+        "correspondLanguageISO" : {
+          "type" : "string"
+        },
+        "initialContact" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:InitialContact",
+          "properties" : {
+            "ownerType" : {
+              "type" : "string",
+              "required" : true
+            },
+            "owner" : {
+              "type" : "string",
+              "required" : true
+            },
+            "delete" : {
+              "type" : "boolean"
+            }
+          }
+        },
+        "nameSuffixGeneration" : {
+          "type" : "string",
+          "enum" : [ "JR", "SR" ]
+        },
+        "homeMarket" : {
+          "type" : "string"
+        },
+        "profile" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile",
+          "properties" : {
+            "personalIdentifications" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile:PersonalIdentifications",
+              "properties" : {
+                "personalIdentifications" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:PersonalIdentification",
+                    "properties" : {
+                      "id" : {
+                        "type" : "string",
+                        "maxLength" : 60
+                      },
+                      "type" : {
+                        "type" : "string"
+                      },
+                      "customExtension" : {
+                        "type" : "object",
+                        "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                      },
+                      "delete" : {
+                        "type" : "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "plannedPurchaseScheduled" : {
+              "type" : "string",
+              "enum" : [ "YES", "NO", "UNKNOWN" ]
+            },
+            "numberOfCarsInHousehold" : {
+              "type" : "integer"
+            },
+            "numberOfCarsInHouseholdDelete" : {
+              "type" : "boolean"
+            },
+            "numberOfFamilyMembers" : {
+              "type" : "integer"
+            },
+            "numberOfFamilyMembersDelete" : {
+              "type" : "boolean"
+            },
+            "plannedPurchase" : {
+              "type" : "any"
+            },
+            "plannedPurchaseDelete" : {
+              "type" : "boolean"
+            },
+            "ageRangeChildren" : {
+              "type" : "string"
+            },
+            "ageRangeChildrenDate" : {
+              "type" : "any"
+            },
+            "ageRangeChildrenDateDelete" : {
+              "type" : "boolean"
+            },
+            "communicationTypePreferred" : {
+              "type" : "string",
+              "enum" : [ "NONE", "FAX", "INT", "LET", "TEL", "MOB", "INCAR" ]
+            },
+            "maritalStatus" : {
+              "type" : "string",
+              "enum" : [ "MARRIED", "SINGLE", "SEPARATED", "DIVORCED", "WIDOWED" ]
+            },
+            "hobbies" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile:Hobbies",
+              "properties" : {
+                "hobbies" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Hobby",
+                    "properties" : {
+                      "id" : {
+                        "type" : "string",
+                        "required" : true
+                      },
+                      "delete" : {
+                        "type" : "boolean"
+                      },
+                      "customExtension" : {
+                        "type" : "object",
+                        "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "interests" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile:Interests",
+              "properties" : {
+                "interests" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Interest",
+                    "properties" : {
+                      "id" : {
+                        "type" : "string",
+                        "required" : true
+                      },
+                      "customExtension" : {
+                        "type" : "object",
+                        "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                      },
+                      "delete" : {
+                        "type" : "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "vehicleInterests" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile:VehicleInterests",
+              "properties" : {
+                "vehicleInterests" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:VehicleInterest",
+                    "properties" : {
+                      "brand" : {
+                        "type" : "string",
+                        "required" : true,
+                        "enum" : [ "BMW", "BMW_I", "MINI", "BMW_MOTORRAD", "ROLLS_ROYCE" ]
+                      },
+                      "productId" : {
+                        "type" : "string",
+                        "required" : true
+                      },
+                      "customExtension" : {
+                        "type" : "object",
+                        "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                      },
+                      "delete" : {
+                        "type" : "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "drivingLicenses" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:Profile:DrivingLicenses",
+              "properties" : {
+                "drivingLicenses" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:customerprofile:DrivingLicense",
+                    "properties" : {
+                      "customExtension" : {
+                        "type" : "object",
+                        "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                      },
+                      "drivingLicenseGUID" : {
+                        "type" : "string",
+                        "maxLength" : 36
+                      },
+                      "delete" : {
+                        "type" : "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "customExtension" : {
+              "type" : "object",
+              "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+            },
+            "ereadiness" : {
+              "type" : "boolean"
+            }
+          }
+        },
+        "addresses" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner:Addresses",
+          "properties" : {
+            "addresses" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:Address",
+                "properties" : {
+                  "delete" : {
+                    "type" : "boolean"
+                  },
+                  "addressGUID" : {
+                    "type" : "string",
+                    "maxLength" : 36
+                  },
+                  "street" : {
+                    "type" : "string",
+                    "maxLength" : 60
+                  },
+                  "strSuppl1" : {
+                    "type" : "string",
+                    "maxLength" : 40
+                  },
+                  "houseNumber" : {
+                    "type" : "string",
+                    "maxLength" : 10
+                  },
+                  "buildingID" : {
+                    "type" : "string",
+                    "maxLength" : 20
+                  },
+                  "postalCode" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 10
+                  },
+                  "city" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 40
+                  },
+                  "country" : {
+                    "type" : "string",
+                    "required" : true
+                  },
+                  "regionCode" : {
+                    "type" : "string"
+                  },
+                  "companyName" : {
+                    "type" : "string",
+                    "maxLength" : 40
+                  },
+                  "addressStatus" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "PRIVATE", "BUSINESS" ]
+                  },
+                  "preferred" : {
+                    "type" : "boolean"
+                  },
+                  "customExtension" : {
+                    "type" : "object",
+                    "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "communications" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner:Communications",
+          "properties" : {
+            "communicationPhones" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:CommunicationPhone",
+                "properties" : {
+                  "consGUID" : {
+                    "type" : "string",
+                    "maxLength" : 36
+                  },
+                  "communicationType" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "FAX", "TEL", "MOB" ]
+                  },
+                  "communicationStatus" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "PRIVATE", "BUSINESS" ]
+                  },
+                  "preferred" : {
+                    "type" : "boolean"
+                  },
+                  "value" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 30,
+                    "pattern" : "^\\+?[0-9\\ ]+$"
+                  },
+                  "delete" : {
+                    "type" : "boolean"
+                  },
+                  "customExtension" : {
+                    "type" : "object",
+                    "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                  }
+                }
+              }
+            },
+            "communicationEMails" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:CommunicationEMail",
+                "properties" : {
+                  "consGUID" : {
+                    "type" : "string",
+                    "maxLength" : 36
+                  },
+                  "communicationStatus" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "PRIVATE", "BUSINESS" ]
+                  },
+                  "preferred" : {
+                    "type" : "boolean"
+                  },
+                  "value" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 241
+                  },
+                  "communicationType" : {
+                    "type" : "string",
+                    "required" : true,
+                    "enum" : [ "EMAIL", "EPOST" ]
+                  },
+                  "delete" : {
+                    "type" : "boolean"
+                  },
+                  "customExtension" : {
+                    "type" : "object",
+                    "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "dealers" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner:Dealers",
+          "properties" : {
+            "dealers" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Dealer",
+                "properties" : {
+                  "isMainDealer" : {
+                    "type" : "boolean"
+                  },
+                  "distributionPartnerId" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 5
+                  },
+                  "outletId" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 2
+                  },
+                  "brand" : {
+                    "type" : "string",
+                    "enum" : [ "BMW", "BMW_I", "MINI", "BMW_MOTORRAD", "ROLLS_ROYCE" ]
+                  },
+                  "customExtension" : {
+                    "type" : "object",
+                    "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                  },
+                  "dealerBusinessPartnerRelations" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "object",
+                      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:DealerBusinessPartnerRelation",
+                      "properties" : {
+                        "dealerBusinessPartnerRelationType" : {
+                          "type" : "string"
+                        },
+                        "usageArea" : {
+                          "type" : "string"
+                        },
+                        "delete" : {
+                          "type" : "boolean"
+                        }
+                      }
+                    }
+                  },
+                  "dealerGUID" : {
+                    "type" : "string",
+                    "maxLength" : 36
+                  },
+                  "delete" : {
+                    "type" : "boolean"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "roles" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartnerRole",
+            "properties" : {
+              "attributes" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "object",
+                  "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartnerRole:Attribute",
+                  "properties" : {
+                    "key" : {
+                      "type" : "string"
+                    },
+                    "value" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              },
+              "customExtension" : {
+                "type" : "object",
+                "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+              }
+            }
+          }
+        },
+        "vehicles" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner:Vehicles",
+          "properties" : {
+            "vehicles" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Vehicle",
+                "properties" : {
+                  "brand" : {
+                    "type" : "string",
+                    "required" : true,
+                    "maxLength" : 80
+                  },
+                  "model" : {
+                    "type" : "string",
+                    "maxLength" : 80
+                  },
+                  "series" : {
+                    "type" : "string",
+                    "maxLength" : 80
+                  },
+                  "usageAim" : {
+                    "type" : "string"
+                  },
+                  "vin" : {
+                    "type" : "string",
+                    "maxLength" : 7
+                  },
+                  "licensePlate" : {
+                    "type" : "string",
+                    "maxLength" : 30
+                  },
+                  "mileage" : {
+                    "type" : "string",
+                    "maxLength" : 7
+                  },
+                  "annualMileage" : {
+                    "type" : "integer"
+                  },
+                  "annualMileageDelete" : {
+                    "type" : "boolean"
+                  },
+                  "constructionYear" : {
+                    "type" : "string",
+                    "maxLength" : 4
+                  },
+                  "vehicleGUID" : {
+                    "type" : "string",
+                    "maxLength" : 36
+                  },
+                  "vehicleBusinessPartnerRelations" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "object",
+                      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:VehicleBusinessPartnerRelation",
+                      "properties" : {
+                        "vehicleBusinessPartnerRelationType" : {
+                          "type" : "string"
+                        },
+                        "usageArea" : {
+                          "type" : "string"
+                        },
+                        "delete" : {
+                          "type" : "boolean"
+                        }
+                      }
+                    }
+                  },
+                  "initialRegistrationDate" : {
+                    "type" : "any"
+                  },
+                  "initialRegistrationDateDelete" : {
+                    "type" : "boolean"
+                  },
+                  "type" : {
+                    "type" : "string",
+                    "enum" : [ "NEW", "USED" ]
+                  },
+                  "bodyType" : {
+                    "type" : "string"
+                  },
+                  "country" : {
+                    "type" : "string"
+                  },
+                  "delete" : {
+                    "type" : "boolean"
+                  },
+                  "customExtension" : {
+                    "type" : "object",
+                    "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "alternativeCustomerIds" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:BusinessPartner:AlternativeCustomerIds",
+          "properties" : {
+            "alternativeCustomerIds" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:AlternativeCustomerId",
+                "properties" : {
+                  "id" : {
+                    "type" : "string",
+                    "maxLength" : 60
+                  },
+                  "type" : {
+                    "type" : "string",
+                    "maxLength" : 10
+                  },
+                  "delete" : {
+                    "type" : "boolean"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "customExtension" : {
+          "type" : "object",
+          "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+        },
+        "lastUpdated" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:LastUpdated",
+          "properties" : {
+            "at" : {
+              "type" : "any"
+            },
+            "bySource" : {
+              "type" : "string",
+              "enum" : [ "CUSTOMER", "DEALER", "CIC" ]
+            },
+            "byDealer" : {
+              "type" : "object",
+              "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Dealer"
+            }
+          }
+        },
+        "claims" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:businesspartner:Claim",
+            "properties" : {
+              "id" : {
+                "type" : "string"
+              },
+              "timestamp" : {
+                "type" : "any"
+              },
+              "delete" : {
+                "type" : "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "userAccount" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:customer:NewUserAccount",
+      "properties" : {
+        "linkedAccounts" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:customer:LinkedAccount",
+            "properties" : {
+              "accountId" : {
+                "type" : "string"
+              },
+              "type" : {
+                "type" : "string"
+              }
+            }
+          }
+        },
+        "mail" : {
+          "type" : "string",
+          "required" : true
+        },
+        "notificationLevel" : {
+          "type" : "string",
+          "enum" : [ "OFF", "NEW_DEVICE", "EVERYTIME" ]
+        },
+        "authenticationLevel" : {
+          "type" : "string",
+          "enum" : [ "ONE_FACTOR", "TWO_FACTOR" ]
+        },
+        "externalLoginToken" : {
+          "type" : "string"
+        },
+        "externalLoginType" : {
+          "type" : "string",
+          "enum" : [ "GOOGLE", "FACEBOOK", "LINKEDIN", "MICROSOFT", "WECHAT" ]
+        },
+        "password" : {
+          "type" : "string"
+        },
+        "pin" : {
+          "type" : "string"
+        },
+        "secretKnowledges" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:customer:SecretKnowledge",
+            "properties" : {
+              "answer" : {
+                "type" : "string"
+              },
+              "questionId" : {
+                "type" : "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "campaignResponse" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:campaignresponse:Campaign",
+      "properties" : {
+        "brand" : {
+          "type" : "string",
+          "required" : true,
+          "enum" : [ "BMW", "BMW_I", "MINI", "BMW_MOTORRAD", "ROLLS_ROYCE" ]
+        },
+        "campaignId" : {
+          "type" : "string",
+          "required" : true
+        },
+        "campaignName" : {
+          "type" : "string"
+        },
+        "comment" : {
+          "type" : "string"
+        },
+        "dealer" : {
+          "type" : "object",
+          "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Dealer"
+        },
+        "leadContext" : {
+          "type" : "string",
+          "required" : true
+        },
+        "leadSource" : {
+          "type" : "string"
+        },
+        "leadSourceId" : {
+          "type" : "string"
+        },
+        "offerId" : {
+          "type" : "string"
+        },
+        "policyConsents" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:consent:PolicyConsentList",
+          "properties" : {
+            "policyConsents" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:policy:consent:PolicyConsent"
+              }
+            }
+          }
+        },
+        "requestType" : {
+          "type" : "string"
+        },
+        "responseType" : {
+          "type" : "string",
+          "required" : true
+        },
+        "treatmentId" : {
+          "type" : "string"
+        },
+        "treatmentName" : {
+          "type" : "string"
+        },
+        "customExtension" : {
+          "type" : "object",
+          "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+        },
+        "fourdbspecificInfo" : {
+          "type" : "object",
+          "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:fourdbspecificinfo:FOURDBSpecificInfo",
+          "properties" : {
+            "campaignPhaseNumber" : {
+              "type" : "string"
+            },
+            "campaignPassword" : {
+              "type" : "string"
+            },
+            "offerType" : {
+              "type" : "string"
+            },
+            "offerNumber" : {
+              "type" : "string"
+            },
+            "doubleOptinRegistration" : {
+              "type" : "boolean"
+            },
+            "onlineUserEmail" : {
+              "type" : "string"
+            },
+            "activationLandingPage" : {
+              "type" : "string"
+            },
+            "activationEmailText" : {
+              "type" : "string"
+            },
+            "customExtension" : {
+              "type" : "object",
+              "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:Extension"
+            },
+            "campaignNumber" : {
+              "type" : "integer"
+            },
+            "agreementNumber" : {
+              "type" : "integer"
+            }
+          }
+        },
+        "fOURDBSpecificInfo" : {
+          "type" : "object",
+          "$ref" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:fourdbspecificinfo:FOURDBSpecificInfo"
+        }
+      }
+    },
+    "captcha" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:bmw:gcdm:controller:v3:model:captcha:Captcha",
+      "properties" : {
+        "validated" : {
+          "type" : "boolean"
+        },
+        "userInput" : {
+          "type" : "string"
+        },
+        "challengeId" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
