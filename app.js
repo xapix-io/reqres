@@ -64,6 +64,8 @@ app.all("/secure/*", [
 	function(req, res, next) {
 		if (req.query && req.query.api_key && req.query.api_key == "ea4c05ed8ec9da03ba63") {
 			return next();
+		} else if (req.headers && req.headers.authorization && req.headers.authorization == "Basic YXBpX2tleTplYTRjMDVlZDhlYzlkYTAzYmE2Mw==") {
+			return next();
 		} else {
 			return res.status(403).send({error: "missing or wrong API key"});
 		}
