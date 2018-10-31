@@ -40,6 +40,7 @@ app.set("view engine", "html");
 app.set("view options", { layout: "layout.html" });
 app.engine("html", hbs.__express);
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/raw", express.static(path.join(__dirname, "data")));
 
 var routes = require("./routes/");
 
