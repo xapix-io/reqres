@@ -1,0 +1,6196 @@
+[
+{ 
+  "id": "1703417",
+  "data": {
+   "replyHeader": {
+      "errorCode": "",
+      "errorText": "",
+      "function": "SOV",
+      "messageType": "IVSRORBE",
+      "mfOrderNumber": "1703417",
+      "productType": "1",
+      "receiver": "SA2-DE",
+      "returnCode": "Ok",
+      "sender": "IVS-R",
+      "timestamp": "20181024 14:07:21:662",
+      "user": "q224594",
+      "version": "0.97",
+      "vin7": "VA53326"
+   },
+   "controlData": {
+      "wsOrderVersion": "30",
+      "rtOrderVersion": "4",
+      "vehicleState": "N"
+   },
+   "orderData": {
+      "orderStatus": "295",
+      "tsOrderStatus": "2017-12-19 14:41:20:964",
+      "orderStatusDescription": "Erstzulassung Vorführ-/Fuhrparkfahrzeug",
+      "processingType": "MMK",
+      "processingTypeDescription": "JAWA Miete kundenbelegt",
+      "quotaMonth": "201711",
+      "quotaDlrDomestic": "023449",
+      "quotaPAKStatus150": "08084",
+      "quotaPAK": "08084",
+      "quotaSearchStartWeek": "20171148",
+      "modificationBlock": "N",
+      "specialRequestFlag": [],
+      "reservedFlag": "false",
+      "status087Block": "N",
+      "orderType": "1",
+      "orderProcess": "N"
+   },
+   "vehicleSpecification": {
+      "brand": "BM",
+      "wsModelCode": "2J71",
+      "modelDescription": "M240i xDrive Coupé",
+      "modelGroup": [],
+      "specErrFl": "N",
+      "engine": {
+         "engineNo": "20155175",
+         "engineType": "B58B30M0",
+         "enginePos": []
+      }
+   },
+   "manufacturerData": {
+      "productionPriority": "4",
+      "vin10": "WBA2J71070",
+      "confirmedProductionWeek": "20171147",
+      "confirmedProductionDate": "2017-11-21",
+      "productionDate": "2017-11-21",
+      "factoryCode": "50",
+      "nationalRegistrationDocumentNo": "EW146389",
+      "nationalRegistrationDocumentDate": "2017-11-22",
+      "modeOfPayment": "0",
+      "bank": "0",
+      "mfLeasingFlag": [],
+      "mfInvoiceDealer": "008002"
+   },
+   "wholesaleData": {
+      "nvMfOrdererCa": "00",
+      "nvMfOrdererId": "015020",
+      "wsBusinessType": "MM",
+      "wsProductionWeek": "20171148"
+   },
+   "retailData": {
+      "ordererDomestic": "008002",
+      "orderingDealerName": "B6-J-2, WA",
+      "rtRequestedProductionWeek": "20171148",
+      "plannedHandoverWeek": [],
+      "refNo": "3034605",
+      "addUsageCustomer": "nullnull"
+   },
+   "distributionData": {
+      "distributionPriority": "1",
+      "currentCompound": "MUCFR",
+      "expectedDeliveryWeek": [],
+      "requestedDeliveryWeek": [],
+      "requestedDeliveryDay": "2017-12-15",
+      "bMWWeltIndicator": [],
+      "collectionDayIndicator": "U",
+      "criticalCollectionFlag": [],
+      "transportationFlag": "A",
+      "destinationLocation": "COMUCFRW",
+      "nextLocCa": "00",
+      "nextLocId": "008002",
+      "agreedHandoverDate": "2017-12-19",
+      "agreedHandoverTime": "144000",
+      "custClearanceFlag": "N"
+   },
+   "featureData": {
+      "colour": {
+         "code": "A75",
+         "description": "Melbourne Rot metallic",
+         "featureType": [
+            {
+               "name": "NEU_KZINH",
+               "value": "0"
+            },
+            {
+               "name": "DLR_OFFER",
+               "value": "Y"
+            },
+            {
+               "name": "FEATURE_TYPE",
+               "value": "L"
+            },
+            {
+               "name": "COLOR_TYPE",
+               "value": "M"
+            },
+            {
+               "name": "USAGE",
+               "value": "N"
+            }
+         ]
+      },
+      "upholstery": {
+         "code": "HAAT",
+         "description": "Stoff Hexagon/Alcantara Anthrazit/Schwarz",
+         "packageKey": [],
+         "featureType": [
+            {
+               "name": "NEU_KZINH",
+               "value": "0"
+            },
+            {
+               "name": "DLR_OFFER",
+               "value": "Y"
+            },
+            {
+               "name": "FEATURE_TYPE",
+               "value": "P"
+            },
+            {
+               "name": "UPH_TYPE",
+               "value": "P"
+            },
+            {
+               "name": "USAGE",
+               "value": "N"
+            }
+         ]
+      },
+      "option": [
+         {
+            "code": "1CA",
+            "description": "interne Steuerung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "21U",
+            "description": "18\" M LMR Doppelspeiche 436 M / MB Orbitgrau metallic",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "230",
+            "description": "EU spezifische Umfänge",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "248",
+            "description": "Lenkradheizung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "249",
+            "description": "Multifunktion für Lenkrad",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "258",
+            "description": "Bereifung mit Notlaufeigenschaften",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2NH",
+            "description": "M Sportbremse",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2PA",
+            "description": "Radschraubensicherung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2TB",
+            "description": "Sport-Automatic Getriebe Steptronic",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2VB",
+            "description": "Reifendruckanzeige",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2VL",
+            "description": "Variable Sportlenkung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "302",
+            "description": "Alarmanlage",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "320",
+            "description": "Modellschriftzug Entfall",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "3AG",
+            "description": "Rückfahrkamera",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "420",
+            "description": "Sonnenschutzverglasung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "423",
+            "description": "Fußmatten in Velours",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "428",
+            "description": "Warndreieck und Verbandkasten",
+            "packageKey": "801",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "430",
+            "description": "Innen- und Außenspiegelpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "431",
+            "description": "Innenspiegel automatisch abblendend",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "465",
+            "description": "Durchladesystem",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "481",
+            "description": "Sportsitze für Fahrer und Beifahrer",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "488",
+            "description": "Lordosenstütze für Fahrer und Beifahrer",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "493",
+            "description": "Ablagenpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "494",
+            "description": "Sitzheizung für Fahrer und Beifahrer",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4AE",
+            "description": "Armauflage vorn, verschiebbar",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4LS",
+            "description": "Int.leisten Alu Längsschliff fein m. Akzentleiste Perlglanz Chrom",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4NE",
+            "description": "Blow by-Heizer",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "508",
+            "description": "Park Distance Control (PDC)",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "521",
+            "description": "Regensensor und automatische Fahrlichtsteuerung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "534",
+            "description": "Klimaautomatik",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "544",
+            "description": "Geschwindigkeitsregelung mit Bremsfunktion",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "548",
+            "description": "Kilometertacho",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "563",
+            "description": "Lichtpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5AC",
+            "description": "Fernlichtassistent",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5DA",
+            "description": "Deaktivierung Beifahrerairbag",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5DC",
+            "description": "Fondkopfstützen klappbar",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "609",
+            "description": "Navigationssystem Professional",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "654",
+            "description": "DAB-Tuner",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "674",
+            "description": "HiFi Lautsprechersystem harman/kardon",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "698",
+            "description": "Area-Code 2 für DVD",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AC",
+            "description": "Intelligenter Notruf",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AE",
+            "description": "TeleServices",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AK",
+            "description": "ConnectedDrive Services",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AM",
+            "description": "Real Time Traffic Information",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AN",
+            "description": "Concierge Services",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AP",
+            "description": "Remote Services",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6CP",
+            "description": "Apple CarPlay Vorbereitung",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6FV",
+            "description": "Online Entertainment",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6NW",
+            "description": "Telefonie mit Wireless Charging",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6WA",
+            "description": "Instrumentenkombination mit erweiterten Umfängen",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6WD",
+            "description": "WLAN Hotspot",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "704",
+            "description": "M Sportfahrwerk",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "710",
+            "description": "M Lederlenkrad",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "715",
+            "description": "M Aerodynamikpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "760",
+            "description": "BMW Individual Hochglanz Shadow Line",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "775",
+            "description": "BMW Individual Dachhimmel anthrazit",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "801",
+            "description": "Deutschland-Ausführung",
+            "packageKey": "801",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "L"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "851",
+            "description": "Sprachversion Deutsch",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "879",
+            "description": "Deutsch/Betriebsanleitung/Serviceheft",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8KA",
+            "description": "Ölwartungsintervall 30000 km / 24 Monate",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8R9",
+            "description": "Kaeltemittel",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8TF",
+            "description": "Aktiver Fussgängerschutz",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8TH",
+            "description": "Speed Limit Info",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "9BM",
+            "description": "BusinessPackage i.V.m.Navigationspaket ConnectedDrive",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "9D5",
+            "description": "Entertainment Paket",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         }
+      ],
+      "connectStatus": "1"
+   }
+  }
+},
+{ 
+  "id": "1234567",
+  "data": {
+   "replyHeader": {
+      "errorCode": "",
+      "errorText": "",
+      "function": "SOV",
+      "messageType": "IVSRORBE",
+      "mfOrderNumber": "1234567",
+      "productType": "1",
+      "receiver": "SA2-DE",
+      "returnCode": "Ok",
+      "sender": "IVS-R",
+      "timestamp": "20181024 14:07:21:662",
+      "user": "q224594",
+      "version": "0.97",
+      "vin7": "VA1111"
+   },
+   "controlData": {
+      "wsOrderVersion": "30",
+      "rtOrderVersion": "4",
+      "vehicleState": "N"
+   },
+   "orderData": {
+      "orderStatus": "295",
+      "tsOrderStatus": "2017-12-19 14:41:20:964",
+      "orderStatusDescription": "Testen von Xapix API Beispieldaten",
+      "processingType": "MMK",
+      "processingTypeDescription": "Beispiel erfolgreich getestet",
+      "quotaMonth": "201711",
+      "quotaDlrDomestic": "023449",
+      "quotaPAKStatus150": "08084",
+      "quotaPAK": "08084",
+      "quotaSearchStartWeek": "20171148",
+      "modificationBlock": "N",
+      "specialRequestFlag": [],
+      "reservedFlag": "false",
+      "status087Block": "N",
+      "orderType": "1",
+      "orderProcess": "N"
+   },
+   "vehicleSpecification": {
+      "brand": "BM",
+      "wsModelCode": "2J71",
+      "modelDescription": "M240i xDrive Coupé",
+      "modelGroup": [],
+      "specErrFl": "N",
+      "engine": {
+         "engineNo": "20155175",
+         "engineType": "B58B30M0",
+         "enginePos": []
+      }
+   },
+   "manufacturerData": {
+      "productionPriority": "4",
+      "vin10": "WBA2J71070",
+      "confirmedProductionWeek": "20171147",
+      "confirmedProductionDate": "2017-11-21",
+      "productionDate": "2017-11-21",
+      "factoryCode": "50",
+      "nationalRegistrationDocumentNo": "EW146389",
+      "nationalRegistrationDocumentDate": "2017-11-22",
+      "modeOfPayment": "0",
+      "bank": "0",
+      "mfLeasingFlag": [],
+      "mfInvoiceDealer": "008002"
+   },
+   "wholesaleData": {
+      "nvMfOrdererCa": "00",
+      "nvMfOrdererId": "015020",
+      "wsBusinessType": "MM",
+      "wsProductionWeek": "20171148"
+   },
+   "retailData": {
+      "ordererDomestic": "008002",
+      "orderingDealerName": "B6-J-2, WA",
+      "rtRequestedProductionWeek": "20171148",
+      "plannedHandoverWeek": [],
+      "refNo": "3034605",
+      "addUsageCustomer": "nullnull"
+   },
+   "distributionData": {
+      "distributionPriority": "1",
+      "currentCompound": "MUCFR",
+      "expectedDeliveryWeek": [],
+      "requestedDeliveryWeek": [],
+      "requestedDeliveryDay": "2017-12-15",
+      "bMWWeltIndicator": [],
+      "collectionDayIndicator": "U",
+      "criticalCollectionFlag": [],
+      "transportationFlag": "A",
+      "destinationLocation": "COMUCFRW",
+      "nextLocCa": "00",
+      "nextLocId": "008002",
+      "agreedHandoverDate": "2017-12-19",
+      "agreedHandoverTime": "144000",
+      "custClearanceFlag": "N"
+   },
+   "featureData": {
+      "colour": {
+         "code": "A75",
+         "description": "Melbourne Rot metallic",
+         "featureType": [
+            {
+               "name": "NEU_KZINH",
+               "value": "0"
+            },
+            {
+               "name": "DLR_OFFER",
+               "value": "Y"
+            },
+            {
+               "name": "FEATURE_TYPE",
+               "value": "L"
+            },
+            {
+               "name": "COLOR_TYPE",
+               "value": "M"
+            },
+            {
+               "name": "USAGE",
+               "value": "N"
+            }
+         ]
+      },
+      "upholstery": {
+         "code": "HAAT",
+         "description": "Stoff Hexagon/Alcantara Anthrazit/Schwarz",
+         "packageKey": [],
+         "featureType": [
+            {
+               "name": "NEU_KZINH",
+               "value": "0"
+            },
+            {
+               "name": "DLR_OFFER",
+               "value": "Y"
+            },
+            {
+               "name": "FEATURE_TYPE",
+               "value": "P"
+            },
+            {
+               "name": "UPH_TYPE",
+               "value": "P"
+            },
+            {
+               "name": "USAGE",
+               "value": "N"
+            }
+         ]
+      },
+      "option": [
+         {
+            "code": "1CA",
+            "description": "interne Steuerung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "21U",
+            "description": "18\" M LMR Doppelspeiche 436 M / MB Orbitgrau metallic",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "230",
+            "description": "EU spezifische Umfänge",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "248",
+            "description": "Lenkradheizung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "249",
+            "description": "Multifunktion für Lenkrad",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "258",
+            "description": "Bereifung mit Notlaufeigenschaften",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2NH",
+            "description": "M Sportbremse",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2PA",
+            "description": "Radschraubensicherung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2TB",
+            "description": "Sport-Automatic Getriebe Steptronic",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2VB",
+            "description": "Reifendruckanzeige",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "2VL",
+            "description": "Variable Sportlenkung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "302",
+            "description": "Alarmanlage",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "320",
+            "description": "Modellschriftzug Entfall",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "3AG",
+            "description": "Rückfahrkamera",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "420",
+            "description": "Sonnenschutzverglasung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "423",
+            "description": "Fußmatten in Velours",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "428",
+            "description": "Warndreieck und Verbandkasten",
+            "packageKey": "801",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "430",
+            "description": "Innen- und Außenspiegelpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "431",
+            "description": "Innenspiegel automatisch abblendend",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "465",
+            "description": "Durchladesystem",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "481",
+            "description": "Sportsitze für Fahrer und Beifahrer",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "488",
+            "description": "Lordosenstütze für Fahrer und Beifahrer",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "493",
+            "description": "Ablagenpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "494",
+            "description": "Sitzheizung für Fahrer und Beifahrer",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4AE",
+            "description": "Armauflage vorn, verschiebbar",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4LS",
+            "description": "Int.leisten Alu Längsschliff fein m. Akzentleiste Perlglanz Chrom",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "4NE",
+            "description": "Blow by-Heizer",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "508",
+            "description": "Park Distance Control (PDC)",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "521",
+            "description": "Regensensor und automatische Fahrlichtsteuerung",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "534",
+            "description": "Klimaautomatik",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "544",
+            "description": "Geschwindigkeitsregelung mit Bremsfunktion",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "548",
+            "description": "Kilometertacho",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "563",
+            "description": "Lichtpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5AC",
+            "description": "Fernlichtassistent",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5DA",
+            "description": "Deaktivierung Beifahrerairbag",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "5DC",
+            "description": "Fondkopfstützen klappbar",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "609",
+            "description": "Navigationssystem Professional",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "654",
+            "description": "DAB-Tuner",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "674",
+            "description": "HiFi Lautsprechersystem harman/kardon",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "698",
+            "description": "Area-Code 2 für DVD",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AC",
+            "description": "Intelligenter Notruf",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AE",
+            "description": "TeleServices",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AK",
+            "description": "ConnectedDrive Services",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AM",
+            "description": "Real Time Traffic Information",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AN",
+            "description": "Concierge Services",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6AP",
+            "description": "Remote Services",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6CP",
+            "description": "Apple CarPlay Vorbereitung",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6FV",
+            "description": "Online Entertainment",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6NW",
+            "description": "Telefonie mit Wireless Charging",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "2"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "Z"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6WA",
+            "description": "Instrumentenkombination mit erweiterten Umfängen",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "6WD",
+            "description": "WLAN Hotspot",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "704",
+            "description": "M Sportfahrwerk",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "710",
+            "description": "M Lederlenkrad",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "715",
+            "description": "M Aerodynamikpaket",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "760",
+            "description": "BMW Individual Hochglanz Shadow Line",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "775",
+            "description": "BMW Individual Dachhimmel anthrazit",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "801",
+            "description": "Deutschland-Ausführung",
+            "packageKey": "801",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "L"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "851",
+            "description": "Sprachversion Deutsch",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "J"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "879",
+            "description": "Deutsch/Betriebsanleitung/Serviceheft",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8KA",
+            "description": "Ölwartungsintervall 30000 km / 24 Monate",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8R9",
+            "description": "Kaeltemittel",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8TF",
+            "description": "Aktiver Fussgängerschutz",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "NEU_KZLEV",
+                  "value": "M"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "H"
+               },
+               {
+                  "name": "NEU_KZC",
+                  "value": "H"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "8TH",
+            "description": "Speed Limit Info",
+            "packageKey": [],
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "0"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "9BM",
+            "description": "BusinessPackage i.V.m.Navigationspaket ConnectedDrive",
+            "packageKey": "9BM",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         },
+         {
+            "code": "9D5",
+            "description": "Entertainment Paket",
+            "packageKey": "9D5",
+            "featureType": [
+               {
+                  "name": "NEU_KZINH",
+                  "value": "1"
+               },
+               {
+                  "name": "DLR_OFFER",
+                  "value": "Y"
+               },
+               {
+                  "name": "FEATURE_TYPE",
+                  "value": "S"
+               },
+               {
+                  "name": "NEU_KZAUS",
+                  "value": "B"
+               },
+               {
+                  "name": "NEU_KZAG",
+                  "value": "A"
+               },
+               {
+                  "name": "NEU_KZS",
+                  "value": "N"
+               },
+               {
+                  "name": "REQUESTED",
+                  "value": "Y"
+               },
+               {
+                  "name": "ADDED",
+                  "value": "Y"
+               },
+               {
+                  "name": "USAGE",
+                  "value": "N"
+               }
+            ]
+         }
+      ],
+      "connectStatus": "1"
+   }
+  }
+}
+]
