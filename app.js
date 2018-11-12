@@ -4,7 +4,9 @@ var express = require("express"),
 	hbs = require("hbs"),
 	path = require("path"),
 	cors = require("cors"),
-	app = express(),
+  swaggerUi = require('swagger-ui-express'),
+  swaggerConfig = require('./swagger.js'),
+  app = express(),
 	port = process.env.PORT || 5000;
 
 var getRandomInteger = function(min, max) {
@@ -41,6 +43,8 @@ app.set("view options", { layout: "layout.html" });
 app.engine("html", hbs.__express);
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/raw", express.static(path.join(__dirname, "data")));
+
+app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerConfig));
 
 var routes = require("./routes/");
 
