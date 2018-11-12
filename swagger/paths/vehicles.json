@@ -1,0 +1,55 @@
+{"/api/vehicles": {
+  "get": {
+    "summary": "Get all vehicles",
+    "responses": {
+      "200": {
+        "description": "successful operation",
+        "schema": {
+          "type": "object",
+          "required": ["data"],
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Vehicle"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+ "/api/vehicles/{id}": {
+   "get": {
+     "summary": "Find vehicle by ID",
+     "parameters": [{
+       "name": "id",
+       "in": "path",
+       "description": "ID of vehicle",
+       "required": true,
+       "type": "integer",
+       "format": "int64"
+     }],
+     "responses": {
+       "200": {
+         "description": "successful operation",
+         "schema": {
+           "type": "object",
+           "required": ["data"],
+           "properties": {
+             "data": {
+               "$ref": "#/definitions/Vehicle"
+             }
+           }
+         }
+       },
+       "400": {
+         "description": "Invalid ID supplied"
+       },
+       "404": {
+         "description": "Vehicle not found"
+       }
+     }
+   }
+ }}

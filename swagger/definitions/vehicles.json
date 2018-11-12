@@ -1,0 +1,53 @@
+{
+  "Vehicle": {
+    "type": "object",
+    "required": ["id", "vin", "make", "model", "year", "user-id"],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "format": "int64"
+      },
+      "vin": {
+        "type": "string"
+      },
+      "make": {
+        "type": "string"
+      },
+      "model": {
+        "type": "string"
+      },
+      "year": {
+        "type": "integer",
+        "format": "int64"
+      },
+      "trim": {
+        "type": "string"
+      },
+      "body": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "class-code": {
+        "type": "string"
+      },
+      "weight": {
+        "type": "integer",
+        "format": "int64"
+      },
+      "gmv": {
+        "type": "integer",
+        "format": "int64"
+      },
+      "lenght": {
+        "type": "integer",
+        "format": "int64"
+      },
+      "user-id": {
+        "type": "integer",
+        "format": "int64"
+      }
+    }
+  }
+}
