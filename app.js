@@ -45,6 +45,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/raw", express.static(path.join(__dirname, "data")));
 
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerConfig));
+app.use('/swagger.json', function(_, res) {
+  return res.send(swaggerConfig);
+});
 
 var routes = require("./routes/");
 
