@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2916500005",
+    "vehicle": {
+	"vehicle_size": null,
+	"trim_level": null,
+	"engine_power_kw": null,
+	"color": null,
+	"vin": "WV2ZA0259CH054174",
+	"license_plate": "MONSTR",
+	"year": 1982,
+	"timezone": "America/Los_Angeles",
+	"make": "Volkswagen Bus/Van",
+	"automatic_transmission_type": null,
+	"style": null,
+	"nickname": "Volkswagen Bus/Van Unknown",
+	"fuel_type": null,
+	"engine_displacement_cc": null,
+	"meters_per_liter_highway": 1,
+	"driven_wheels": null,
+	"meters_per_liter_city": 1,
+	"user_image_url": null,
+	"weight_kg": null,
+	"engine_cylinders": null,
+	"num_doors": null,
+	"num_gears": null,
+	"current_meters": 356459527,
+	"name": "Volkswagen Bus/Van Unknown",
+	"last_refresh": "2018-03-07T00:00:17.868169+00:00",
+	"transmission_type": null,
+	"model": "Unknown",
+	"submodel": null
+    }
+  }
+]
