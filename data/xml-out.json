@@ -1,0 +1,25 @@
+{"Envelope":{"Header":{},
+             "Body":{
+                 "getVehicleResponse":{
+                     "GetVehicleResponse":{
+                         "__attrs":{
+                             "limit":{"__value":"110101"},
+                             "offset":{"__value":"100"},
+                             "resultSize":{"__value":"500"},
+                             "responseSize":{"__value":"123109238"}},
+                         "VEHICLEs":[{"VEHICLE":{
+                             "__attrs":{
+                                 "inoid":{"__value":"my inoid"}},
+                             "CHASSIS":{"__value":"yo, chassis"},
+                             "VEHICLEHARDWAREs":[{"VEHICLEHARDWARE":{
+                                 "HARDWARE":{"__value":"HARD STAFFf"},
+                                 "HARDWAREID":{"__value": 42}}}],
+                             "FLEETVEHICLE":{
+                                 "FLEETID":{"__value": "Flleeeetid"},
+                                 "VEHICLENUMBER":{"__value":"cucumber"}},
+                             "VEHICLEPROPERTIES":{
+                                 "Properties":[{"Property":{
+                                     "Name":{
+                                         "__value":"namemmeme"},
+                                     "Value":{
+                                         "__value":"some string"}}}]}}}]}}}}}
