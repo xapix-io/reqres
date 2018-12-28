@@ -1,4 +1,4 @@
-FROM node:11.6.0-alpine
+FROM node:11.6.0
 
 RUN useradd -s /bin/bash -m -U -u 2000 box
 USER box
