@@ -6,6 +6,7 @@ var express = require("express"),
 	path = require("path"),
 	cors = require("cors"),
 	https = require("https"),
+	http = require("http"),
 	swaggerUi = require('swagger-ui-express'),
 	swaggerConfig = require('./swagger.js'),
 	app = express(),
@@ -146,7 +147,7 @@ var httpsServer = https.createServer(httpsOpts, app).listen(httpsPort, function(
 	console.log("reqres app listening at https://%s:%s", host, port);
 });
 
-var httpServer = app.listen(port, function() {
+var httpServer = http.createServer({}, app).listen(port, function() {
 	var host = httpServer.address().address,
 		port = httpServer.address().port;
 	console.log("reqres app listening at http://%s:%s", host, port);
@@ -161,4 +162,4 @@ for (var serviceName in soapServices) {
 	soap.listen(httpServer, '/soap/' + serviceName, serviceDetails.service, serviceDetails.wsdl);
 }
 
-module.exports = [httpServer, httpsServer];
+module.exports = httpServer
