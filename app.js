@@ -2,12 +2,17 @@ var express = require("express"),
 	bodyParser = require("body-parser"),
 	soap = require("strong-soap").soap,
 	hbs = require("hbs"),
+	fs = require("fs"),
 	path = require("path"),
 	cors = require("cors"),
-  swaggerUi = require('swagger-ui-express'),
-  swaggerConfig = require('./swagger.js'),
-  app = express(),
-	port = process.env.PORT || 5000;
+	https = require("https"),
+	swaggerUi = require('swagger-ui-express'),
+	swaggerConfig = require('./swagger.js'),
+	app = express(),
+	port = process.env.PORT || 5000,
+	httpsPort = port + 1;
+
+
 
 var getRandomInteger = function(min, max) {
 	min = Math.ceil(min);
@@ -130,17 +135,30 @@ app.use(function(req, res, next) {
 	res.type("txt").send("Not found");
 });
 
-var server = app.listen(port, function() {
-	var host = server.address().address,
-		port = server.address().port;
+let httpsOpts = {
+    key: fs.readFileSync('./certs/key.pem'),
+    cert: fs.readFileSync('./certs/cert.pem')
+};
+
+var httpsServer = https.createServer(httpsOpts, app).listen(httpsPort, function() {
+	var host = httpsServer.address().address,
+		port = httpsServer.address().port;
+	console.log("reqres app listening at https://%s:%s", host, port);
+});
+
+var httpServer = app.listen(port, function() {
+	var host = httpServer.address().address,
+		port = httpServer.address().port;
 	console.log("reqres app listening at http://%s:%s", host, port);
 });
+
 
 var soapServices = require("./soap/");
 
 for (var serviceName in soapServices) {
 	serviceDetails = soapServices[serviceName]
-	soap.listen(server, '/soap/' + serviceName, serviceDetails.service, serviceDetails.wsdl);
+    // FIXME: SOAP listens on http only
+	soap.listen(httpServer, '/soap/' + serviceName, serviceDetails.service, serviceDetails.wsdl);
 }
 
-module.exports = server
+module.exports = [httpServer, httpsServer];

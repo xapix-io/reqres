@@ -12,4 +12,5 @@ RUN yarn install --only=production
 COPY --chown=box:box . .
 
 EXPOSE 5000
+EXPOSE 5001
 CMD [ "node", "app.js" ]
