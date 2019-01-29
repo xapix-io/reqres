@@ -3057,9 +3057,9 @@ strong-globalize@^4.1.1:
     yamljs "^0.3.0"
 
 strong-soap@^1.11.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.14.0.tgz#0152b1120f910577db97c2b6a100f6af502afaf3"
-  integrity sha512-RYja/uR/xLd3JM8c2UCkiYHUF2WMB1BqS/wAmT4mrEKWBGulszRMY+cjsWaCMawwdXrxAXsHXhl3TyDDvCmEuw==
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.15.0.tgz#0007adfef101320d07ee68722c5c87e2a33e2cca"
+  integrity sha512-xBD8y3hNqXyooHn4xrGH3rLjCXNTFfOLun1a/i8Ak/UnOVS0F/ASP4MBsi3Bpjs+4uFyESJ2WW/7dUwVI/CUmg==
   dependencies:
     compress "^0.99.0"
     debug "^3.1.0"
