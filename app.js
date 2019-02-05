@@ -86,6 +86,20 @@ app.all("/secure/*", [
 	}
 ]);
 
+app.get("/timeout", [
+  function(req, res, next) {
+    var timeoutValue = parseInt(req.query.timeout) * 1000;
+
+    var p = new Promise(function(resolve,reject) {
+      setTimeout(resolve, timeoutValue);
+    });
+
+    p.then(function() {
+      res.status(200).send("timeout ended: " + timeoutValue);
+    });
+
+  }]);
+
 app.get("/", function(req, res, next) {
 	res.render("index");
 });
