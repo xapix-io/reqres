@@ -16,6 +16,7 @@
     "express": "^4.9.7",
     "glob": "^7.1.2",
     "hbs": "^4.0.1",
+    "oauth2-server": "^3.0.1",
     "strong-soap": "^1.11.0",
     "swagger-ui-express": "^4.0.1"
   },

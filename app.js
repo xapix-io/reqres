@@ -1,4 +1,7 @@
 var express = require("express"),
+    OAuth2Server = require('oauth2-server'),
+    Request = OAuth2Server.Request,
+    Response = OAuth2Server.Response,
 	bodyParser = require("body-parser"),
 	soap = require("strong-soap").soap,
 	hbs = require("hbs"),
@@ -12,8 +15,6 @@ var express = require("express"),
 	app = express(),
 	port = process.env.PORT || 5000,
 	httpsPort = port + 1;
-
-
 
 var getRandomInteger = function(min, max) {
 	min = Math.ceil(min);
@@ -99,6 +100,50 @@ app.get("/timeout", [
     });
 
   }]);
+
+
+
+var model = require("./oauth-model.js");
+
+var oauth = new OAuth2Server({
+  model: new model(),
+  grants: ['client_credentials'],
+  debug: true
+});
+
+app.all("/oauth2/token", [
+  function(req, res, next) {
+    request = new Request(req)
+    response = new Response(res)
+
+    oauth.token(request, response)
+      .then((token) => {
+        console.log(token)
+        res.status(200).json(token);
+      })
+      .catch((err) => {
+        res.status(err.code || 500).json(err)
+      });
+  }]);
+
+var oauth2middleware = function(req, res, next){
+
+  var request = new Request(req);
+  var response = new Response(res);
+
+  var p = new Promise((resolve) => {
+    resolve(oauth.authenticate(request, response));
+  }).then((data) => {
+    res.oauth = data
+    next()
+  }).catch((err) => {
+    res.status(err.code || 500).json(err)
+  });;
+
+  return p;
+};
+
+app.use("/api/oauth-users", oauth2middleware, routes.get)
 
 app.get("/", function(req, res, next) {
 	res.render("index");
