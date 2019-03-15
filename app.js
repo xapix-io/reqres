@@ -145,6 +145,12 @@ var oauth2middleware = function(req, res, next){
 
 app.use("/api/oauth-users", oauth2middleware, routes.get)
 
+app.all("/api/sample-cookies", [function(req, res, next) {
+  res.cookie('sample', 42, { domain: req.hostname, path: '/api/sample-cookies', secure: true });
+  res.cookie('sample2', 24);
+  res.send('cookie.')
+}]);
+
 app.get("/", function(req, res, next) {
 	res.render("index");
 });
