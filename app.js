@@ -147,8 +147,12 @@ app.use("/api/oauth-users", oauth2middleware, routes.get)
 
 app.all("/api/sample-cookies", [function(req, res, next) {
   res.cookie('sample', 42, { domain: req.hostname, path: '/api/sample-cookies', secure: true });
-  res.cookie('sample2', 24);
+  res.cookie('sample2', 24, { domain: req.hostname, path: '/api/sample-cookies', secure: false });
   res.send('cookie.')
+}]);
+
+app.all("/api/show-cookies", [function(req, res, next) {
+  res.send(req.headers.cookie)
 }]);
 
 app.get("/", function(req, res, next) {
