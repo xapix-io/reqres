@@ -741,7 +741,7 @@ debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1:
+debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -1321,10 +1321,10 @@ global-prefix@^1.0.1:
     is-windows "^1.0.1"
     which "^1.2.14"
 
-globalize@^1.3.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/globalize/-/globalize-1.4.0.tgz#4c00a79de67d739a9b7ff83b66b90d0257c27493"
-  integrity sha1-TACnneZ9c5qbf/g7ZrkNAlfCdJM=
+globalize@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/globalize/-/globalize-1.4.2.tgz#3ff354c7ced0bbfab4cf7896d8cbb6f4c0fc37f5"
+  integrity sha512-IfKeYI5mAITBmT5EnH8kSQB5uGson4Fkj2XtTpyEbIS7IHNfLHoeTyLJ6tfjiKC6cJXng3IhVurDk5C7ORqFhQ==
   dependencies:
     cldrjs "^0.5.0"
 
@@ -1575,7 +1575,7 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-httpntlm@^1.6.1:
+httpntlm@^1.7.6:
   version "1.7.6"
   resolved "https://registry.yarnpkg.com/httpntlm/-/httpntlm-1.7.6.tgz#6991e8352836007d67101b83db8ed0f915f906d0"
   integrity sha1-aZHoNSg2AH1nEBuD247Q+RX5BtA=
@@ -2423,7 +2423,7 @@ os-homedir@^1.0.0:
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
   integrity sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
 
-os-locale@^3.0.1:
+os-locale@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-3.1.0.tgz#a802a6ee17f24c10483ab9935719cef4ed16bf1a"
   integrity sha512-Z8l3R4wYWM40/52Z+S265okfFj8Kt2cC2MKY+xNi3kFs+XGI7WXu/I309QQQYbRW4ijiZ+yxs9pqEhJh0DqW3Q==
@@ -3123,38 +3123,38 @@ strip-eof@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
   integrity sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=
 
-strong-globalize@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/strong-globalize/-/strong-globalize-4.1.2.tgz#9679b1e6cde2bf88d2843a0815fd6d9a5ee34de4"
-  integrity sha512-2ks3/fuQy4B/AQDTAaEvTXYSqH4TWrv9VGlbZ4YujzijEJbIWbptF/9dO13duv87aRhWdM5ABEiTy7ZmnmBhdQ==
+strong-globalize@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/strong-globalize/-/strong-globalize-4.1.3.tgz#7ee33da3b22cb867217a194bbb6d42d997fed2cd"
+  integrity sha512-SJegV7w5D4AodEspZJtJ7rls3fmi+Zc0PdyJCqBsg4RN9B8TC80/uAI2fikC+s1Jp9FLvr2vDX8f0Fqc62M4OA==
   dependencies:
     accept-language "^3.0.18"
-    debug "^4.0.1"
-    globalize "^1.3.0"
+    debug "^4.1.1"
+    globalize "^1.4.2"
     lodash "^4.17.4"
     md5 "^2.2.1"
     mkdirp "^0.5.1"
-    os-locale "^3.0.1"
+    os-locale "^3.1.0"
     yamljs "^0.3.0"
 
 strong-soap@^1.11.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.15.0.tgz#0007adfef101320d07ee68722c5c87e2a33e2cca"
-  integrity sha512-xBD8y3hNqXyooHn4xrGH3rLjCXNTFfOLun1a/i8Ak/UnOVS0F/ASP4MBsi3Bpjs+4uFyESJ2WW/7dUwVI/CUmg==
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.18.0.tgz#7216c2966b01f9df94bec03052d06589bcae3a10"
+  integrity sha512-xmqm2YqjdAhv2CF26sLjH9pPIGiEhU75m0pDcsybkjTKrx9Ok1Vjp62GOVjUjlKRo2IVe77jlsDdIMDcEA5IWA==
   dependencies:
     compress "^0.99.0"
-    debug "^3.1.0"
-    httpntlm "^1.6.1"
+    debug "^4.1.1"
+    httpntlm "^1.7.6"
     lodash "^4.13.1"
     optional "^0.1.3"
     path "^0.12.7"
     request "^2.72.0"
     sax "^1.2"
     selectn "^1.0.20"
-    strong-globalize "^4.1.1"
+    strong-globalize "^4.1.3"
     uuid "^3.2.1"
-    xml-crypto "^0.10.1"
-    xmlbuilder "^9.0.4"
+    xml-crypto "^1.3.0"
+    xmlbuilder "^10.1.1"
   optionalDependencies:
     strong-ursa "^0.10.1"
 
@@ -3531,28 +3531,28 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-xml-crypto@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-0.10.1.tgz#f832f74ccf56f24afcae1163a1fcab44d96774a8"
-  integrity sha1-+DL3TM9W8kr8rhFjofyrRNlndKg=
+xml-crypto@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-1.3.0.tgz#5450e0768c24a854a5cfea6c485d2b73c835d9e1"
+  integrity sha512-Kx/owhke7oy89NAB8HTkaENc1BaCixQDHD6Wg61VTIOdjBlIRLNs2Ts76MhJz78EPyOMoqUoY4ytShCqbv1XBA==
   dependencies:
-    xmldom "=0.1.19"
-    xpath.js ">=0.0.3"
+    xmldom "0.1.27"
+    xpath "0.0.27"
 
-xmlbuilder@^9.0.4:
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
-  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
+xmlbuilder@^10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-10.1.1.tgz#8cae6688cc9b38d850b7c8d3c0a4161dcaf475b0"
+  integrity sha512-OyzrcFLL/nb6fMGHbiRDuPup9ljBycsdCypwuyg5AAHvyWzGfChJpCXMG88AGTIMFhGZ9RccFN1e6lhg3hkwKg==
 
-xmldom@=0.1.19:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.19.tgz#631fc07776efd84118bf25171b37ed4d075a0abc"
-  integrity sha1-Yx/Ad3bv2EEYvyUXGzftTQdaCrw=
+xmldom@0.1.27:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
+  integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
 
-xpath.js@>=0.0.3:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/xpath.js/-/xpath.js-1.1.0.tgz#3816a44ed4bb352091083d002a383dd5104a5ff1"
-  integrity sha512-jg+qkfS4K8E7965sqaUl8mRngXiKb3WZGfONgE18pr03FUQiuSV6G+Ej4tS55B+rIQSFEIw3phdVAQ4pPqNWfQ==
+xpath@0.0.27:
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.27.tgz#dd3421fbdcc5646ac32c48531b4d7e9d0c2cfa92"
+  integrity sha512-fg03WRxtkCV6ohClePNAECYsmpKKTv5L8y/X3Dn1hQrec3POx2jHZ/0P2qQ6HvsrU1BmeqXcof3NGGueG6LxwQ==
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
