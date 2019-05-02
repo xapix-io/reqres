@@ -87,6 +87,13 @@ app.all("/secure/*", [
 	}
 ]);
 
+app.all("/hal/*", [
+  function(req, res, next) {
+    res.set('Content-Type', 'application/hal+json');
+    return next();
+  }
+]);
+
 app.get("/timeout", [
   function(req, res, next) {
     var timeoutValue = parseInt(req.query.timeout) * 1000;
@@ -118,7 +125,6 @@ app.all("/oauth2/token", [
 
     oauth.token(request, response)
       .then((token) => {
-        console.log(token)
         res.status(200).json(token);
       })
       .catch((err) => {
@@ -182,6 +188,9 @@ app.patch("/api/:resource", routes.patch);
 
 app.delete("/api/:resource/*", routes.delete);
 app.delete("/api/:resource", routes.delete);
+
+app.get("/hal/api/:resource/*", routes.get);
+app.get("/hal/api/:resource", routes.get);
 
 app.get("/secure/api/:resource/*", routes.get);
 app.get("/secure/api/:resource", routes.get);
