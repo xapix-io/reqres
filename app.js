@@ -201,6 +201,8 @@ app.put("/inspect", routes.inspect);
 app.patch("/inspect", routes.inspect);
 app.delete("/inspect", routes.inspect);
 
+app.post("/oauth/token", routes.oauth_token);
+
 app.use(function(req, res, next) {
 	res.status(404);
 
