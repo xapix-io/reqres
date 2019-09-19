@@ -1,6 +1,6 @@
-FROM node:11.6.0
+FROM node:12.10.0-alpine
 
-RUN useradd -s /bin/bash -m -U -u 2000 box
+RUN addgroup -S box --gid 2000 && adduser -S box -G box --uid 2000
 USER box
 
 RUN mkdir -p /home/box/reqres
