@@ -1,0 +1,59 @@
+[
+  {
+    "id": "488",
+    "revision": "1",
+    "name": "Tool 488",
+    "description": "Tool to make 488 stuff",
+    "goq": 100000,
+    "aoq": 100000,
+    "poq": 10000,
+    "parts": [
+      {
+        "id": "488-p1",
+        "revision-state-rs": "",
+        "revision-id": "1",
+        "name": "Tool 488 Part 1"
+      },
+      {
+        "id": "488-p2",
+        "revision-state-rs": "",
+        "revision-id": "1",
+        "name": "Tool 488 Part 2"
+      }
+    ]
+  },
+  {
+    "id": "500",
+    "revision": "1",
+    "name": "Tool 500",
+    "description": "Tool to make 500 stuff",
+    "goq": 100000,
+    "aoq": 100000,
+    "poq": 10000,
+    "parts": [
+      {
+        "id": "500-p1",
+        "revision-state-rs": "",
+        "revision-id": "1",
+        "name": "Tool 500 Part 1"
+      }
+    ]
+  },
+  {
+    "id": "600",
+    "revision": "1",
+    "name": "Tool 600",
+    "description": "Tool to make 600 stuff",
+    "goq": 100000,
+    "aoq": 100000,
+    "poq": 10000,
+    "parts": [
+      {
+        "id": "600-p1",
+        "revision-state-rs": "",
+        "revision-id": "1",
+        "name": "Tool 600 Part 1"
+      }
+    ]
+  }
+]

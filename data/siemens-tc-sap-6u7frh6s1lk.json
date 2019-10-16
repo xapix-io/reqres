@@ -1,0 +1,38 @@
+[
+  {
+    "material": "488-p1",
+    "materialDescription": "Tool 488 Part 1",
+    "demand_1": 1,
+    "demand_2": 1,
+    "demand_3": 1,
+    "demand_4": 1,
+    "demand_5": 1
+  },
+  {
+    "material": "488-p2",
+    "materialDescription": "Tool 488 Part 2",
+    "demand_1": 1,
+    "demand_2": 1,
+    "demand_3": 1,
+    "demand_4": 1,
+    "demand_5": 1
+  },
+  {
+    "material": "500-p1",
+    "materialDescription": "Tool 500 Part 1",
+    "demand_1": 1,
+    "demand_2": 1,
+    "demand_3": 1,
+    "demand_4": 1,
+    "demand_5": 1
+  },
+  {
+    "material": "600-p1",
+    "materialDescription": "Tool 600 Part 1",
+    "demand_1": 1,
+    "demand_2": 1,
+    "demand_3": 1,
+    "demand_4": 1,
+    "demand_5": 1
+  }
+]
