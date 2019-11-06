@@ -1,0 +1,24 @@
+# TODO: switch to private @actions/docker when actions sharing will be available
+name: CD
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy Repo Files
+      uses: actions/checkout@master
+    - name: Revision
+      run: echo "${{ github.sha }}" > REVISION
+    - name: Install deps
+      run: yarn install
+    - name: Run tests
+      run: yarn test --exit
+    - name: Build docker
+      run: |
+        REPO=docker.pkg.github.com/xapix-io/reqres/reqres
+        IMAGE=$REPO:$GITHUB_SHA
+        DEVELOP_IMAGE=$REPO:develop
+        docker login docker.pkg.github.com -u xapixbot -p ${{ secrets.XAPIX_GITHUB_TOKEN }}
+        docker build -t $IMAGE -t $DEVELOP_IMAGE .
+        docker push $IMAGE
+        if [ "$GITHUB_REF" = "refs/heads/master" ] ; then docker push $DEVELOP_IMAGE ; fi
