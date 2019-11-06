@@ -7,15 +7,12 @@ jobs:
     steps:
     - name: Copy Repo Files
       uses: actions/checkout@master
-    - name: Cache node modules
-      uses: actions/cache@v1
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
     - name: Revision
       run: echo "${{ github.sha }}" > REVISION
+    - name: Install deps
+      run: yarn install
+    - name: Run tests
+      run: yarn test --exit
     - name: Build docker
       run: |
         REPO=docker.pkg.github.com/xapix-io/reqres/reqres
