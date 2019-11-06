@@ -1,0 +1,27 @@
+# TODO: switch to private @actions/docker when actions sharing will be available
+name: CD
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy Repo Files
+      uses: actions/checkout@master
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Revision
+      run: echo "${{ github.sha }}" > REVISION
+    - name: Build docker
+      run: |
+        REPO=docker.pkg.github.com/xapix-io/external-incrementer/external-incrementer
+        IMAGE=$REPO:$GITHUB_SHA
+        DEVELOP_IMAGE=$REPO:develop
+        docker login docker.pkg.github.com -u xapixbot -p ${{ secrets.XAPIX_GITHUB_TOKEN }}
+        docker build -t $IMAGE -t $DEVELOP_IMAGE .
+        docker push $IMAGE
+        if [ "$GITHUB_REF" = "refs/heads/master" ] ; then docker push $DEVELOP_IMAGE ; fi
