@@ -1,0 +1,52 @@
+Arguments: 
+  /Library/Java/JavaVirtualMachines/graalvm-ce-19.2.0/Contents/Home/jre/languages/js/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/graalvm-ce-19.2.0/Contents/Home/bin:/Applications/factor:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@xapix-io%2finfra: Not found
+      at Request.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:66830:18)
+      at Request.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:140464:7)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141436:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "clojud-infra",
+    "devDependencies": {
+      "@types/node": "^8.10.59"
+    },
+    "scripts": {
+      "build": "tsc",
+      "docs-config": "node ./bin/config.js"
+    },
+    "dependencies": {
+      "@pulumi/azure": "^1.4.0",
+      "@pulumi/docker": "^0.17.4",
+      "@pulumi/kubernetes": "^1.0.0",
+      "@pulumi/pulumi": "^1.5.1",
+      "@xapix-io/infra": "^1.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
