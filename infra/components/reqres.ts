@@ -110,7 +110,9 @@ export default function({
         }
     }, { provider })
 
-    new k8s.networking.v1beta1.Ingress('external', {
+    const host = domain.apply(x => 'reqres.' + x)
+
+    new k8s.networking.v1beta1.Ingress('reqres', {
         metadata: {
             namespace,
             annotations: {
@@ -121,11 +123,11 @@ export default function({
         },
         spec: {
             tls: [{
-                hosts: [externalDomain],
+                hosts: [host],
                 secretName: 'reqres-external-tls'
             }],
             rules: [{
-                host: externalDomain,
+                host,
                 http: {
                     paths: [{
                         path: '/',
