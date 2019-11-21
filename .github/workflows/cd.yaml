@@ -28,7 +28,7 @@ jobs:
   # find a way to do it, so we just duplicate deploy job for different branches
   deploy:
     runs-on: ubuntu-latest
-    # if: "'refs/heads/master' == github.ref"
+    if: "'refs/heads/master' == github.ref"
     needs: [build]
     strategy:
       matrix:
