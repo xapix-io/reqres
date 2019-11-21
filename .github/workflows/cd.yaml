@@ -22,3 +22,35 @@ jobs:
         docker build -t $IMAGE -t $DEVELOP_IMAGE .
         docker push $IMAGE
         if [ "$GITHUB_REF" = "refs/heads/master" ] ; then docker push $DEVELOP_IMAGE ; fi
+
+  # TODO Github Actions expressions are completely broken, ideally we
+  # dynamically set matrix.stack based on what branch we are using, but I didn't
+  # find a way to do it, so we just duplicate deploy job for different branches
+  deploy:
+    runs-on: ubuntu-latest
+    # if: "'refs/heads/master' == github.ref"
+    needs: [build]
+    strategy:
+      matrix:
+        stack: [dev]
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: prepor/action-aws-iam-authenticator@master
+      - uses: prepor/setup-pulumi@master
+        with:
+          version: 1.4.1
+      - run: echo "//npm.pkg.github.com/:_authToken=${{secrets.XAPIX_GITHUB_TOKEN}}" >> .npmrc
+        working-directory: ./infra
+      - uses: prepor/github-pulumi@master
+        with:
+          stack: xapix/${{ matrix.stack }}
+          args: up
+          root: infra
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
+          VERSION: ${{ github.sha }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
