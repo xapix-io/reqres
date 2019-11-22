@@ -9,15 +9,13 @@ export default function({
     dockerSecret,
     issuer,
     namespace,
-    domain,
-    externalDomain }:
+    domain}:
     {
         provider: k8s.Provider,
         version: string,
         issuer: pulumi.Output<string>,
         namespace: pulumi.Output<string>,
         domain: pulumi.Output<string>,
-        externalDomain: pulumi.Output<string>,
         dockerSecret: pulumi.Output<string>,
     }) {
 

@@ -26,6 +26,5 @@ reqres({
     namespace,
     dockerSecret: stringOutput(dockerSecret),
     issuer: stringOutput(infra.requireOutput('prodIssuer')),
-    domain: stringOutput(infra.requireOutput('baseDomain')),
-    externalDomain: stringOutput(infra.requireOutput('clientDomain'))
+    domain: stringOutput(infra.requireOutput('baseDomain'))
 })
