@@ -57,7 +57,7 @@ jobs:
 
   configs:
     runs-on: ubuntu-latest
-    # if: "'refs/heads/master' == github.ref"
+    if: "'refs/heads/master' == github.ref"
     steps:
       - uses: actions/checkout@v1
       - name: Config Docs
