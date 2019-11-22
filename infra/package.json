@@ -1,0 +1,17 @@
+{
+  "name": "reqres-infra",
+  "devDependencies": {
+    "@types/node": "^8.10.59"
+  },
+  "scripts": {
+    "build": "tsc",
+    "docs-config": "node ./bin/config.js"
+  },
+  "dependencies": {
+    "@pulumi/azure": "^1.4.0",
+    "@pulumi/docker": "^0.17.4",
+    "@pulumi/kubernetes": "^1.0.0",
+    "@pulumi/pulumi": "^1.5.1",
+    "@xapix-io/infra": "^1.0.12"
+  }
+}
