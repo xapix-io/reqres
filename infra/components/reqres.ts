@@ -22,7 +22,7 @@ export default function({
     const stack = pulumi.getStack();
     const appLabels = { app: "reqres" };
 
-    const image = `docker.pkg.github.com/xapix-io/reqres/reqres:${version}`
+    const image = `xapixio/reqres:${version}`
 
     const config = configs.prefixed('xapix-reqres')
 
