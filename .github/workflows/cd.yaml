@@ -28,8 +28,8 @@ jobs:
     if: "'refs/heads/master' == github.ref"
     needs: [build]
     strategy:
+      fail-fast: false
       matrix:
-        fail-fast: false
         stack: [dev, stable]
     steps:
       - uses: actions/checkout@v1
