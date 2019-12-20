@@ -1,0 +1,3 @@
+config:
+  xapix-reqres:require-cpu: "1"
+  xapix-reqres:require-memory: "100"

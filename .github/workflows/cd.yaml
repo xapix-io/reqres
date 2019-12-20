@@ -29,6 +29,7 @@ jobs:
     needs: [build]
     strategy:
       matrix:
+        fail-fast: false
         stack: [dev, stable]
     steps:
       - uses: actions/checkout@v1
