@@ -23,16 +23,13 @@ jobs:
         docker push $IMAGE
         if [ "$GITHUB_REF" = "refs/heads/master" ] ; then docker push $DEVELOP_IMAGE ; fi
 
-  # TODO Github Actions expressions are completely broken, ideally we
-  # dynamically set matrix.stack based on what branch we are using, but I didn't
-  # find a way to do it, so we just duplicate deploy job for different branches
   deploy:
     runs-on: ubuntu-latest
     if: "'refs/heads/master' == github.ref"
     needs: [build]
     strategy:
       matrix:
-        stack: [dev]
+        stack: [dev, stable]
     steps:
       - uses: actions/checkout@v1
         with:
