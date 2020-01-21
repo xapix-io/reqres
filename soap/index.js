@@ -1,11 +1,41 @@
 var blz_data = require("./../soap-data/blz.json"),
   readFileSync = require('fs').readFileSync;
 
+var soapErrors = {
+    soap11: {
+        Fault: {
+            faultcode: "sampleFaultCode",
+            faultstring: "sampleFaultString",
+            detail:
+            { myMethodFault:
+              {errorMessage: 'MyMethod Business Exception message', value: 10}
+            }
+        }
+    },
+    soap12: {
+        Fault: {
+            Code: {
+                Value: "soap:Sender",
+                Subcode: { Value: "rpc:BadArguments" }
+            },
+            Reason: { Text: "Processing Error" },
+            Detail:
+            {myMethodFault2:
+             {errorMessage2: 'MyMethod Business Exception message', value2: 10}
+            }
+        }
+    }
+}
+
 var BLZService = {
   BLZService: {
     BLZServiceSOAP11port_http: {
       getBank: function(args) {
-        return blz_data[args.blz] || {}
+        if (args.error) {
+          throw soapErrors[args.error];
+        } else {
+          return blz_data[args.blz] || {}
+        }
       }
     }
   }
