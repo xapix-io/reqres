@@ -141,7 +141,7 @@ new k8s.networking.v1beta1.Ingress('reqres', {
 }, { provider })
 
 
-const mobilityHost = infra.requireOutput('baseDomain').apply(x => 'mobility.' + x);
+const mobilityHost = infra.requireOutput('domainMobility')
 
 new k8s.networking.v1beta1.Ingress('reqres-mobility', {
     metadata: {
