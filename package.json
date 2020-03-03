@@ -27,6 +27,6 @@
     "gulp-autoprefixer": "^6.1.0",
     "gulp-livereload": "^4.0.1",
     "gulp-ruby-sass": "^4.0.0",
-    "mocha": "^6.2.0"
+    "mocha": "^7.1.0"
   }
 }
