@@ -1,5 +1,5 @@
-id,first_name,last_name,applicable_law,applicable_state,owner_right_to_access_requested,owner_right_to_access_performed,last_access_by_owner,owner_right_to_be_forgotten_requested,owner_right_to_be_forgotten_performed,time_of_data_deletion,third_party_access_provided_to,third_party_data_share_enabled
-55977842,Anna,Lindmann,Germany,na,TRUE,TRUE,2019-07-22 12:09,FALSE,FALSE,na,"Allianz, Datev, Dekra, Facebook, Google, Zalando",TRUE
-55977843,Claire,Vogue,France,na,FALSE,FALSE,2019-07-29 12:09,TRUE,TRUE,2019-12-29 10:09,na,FALSE
-55977844,Adam,Smith,United States,California,FALSE,FALSE,2020-01-22 12:09,FALSE,FALSE,na,"Amazon, Apple, Facebook, Google, Instacart, Tencent",FALSE
-55977845,Jon,Dunkin,United States,New York,FALSE,FALSE,2019-12-22 12:09,FALSE,FALSE,na,"Amazon, Apple, Facebook, Mastercard, Visa",TRUE
+id,car_id,first_name,last_name,applicable_law,applicable_state,owner_right_to_access_requested,owner_right_to_access_performed,last_access_by_owner,owner_right_to_be_forgotten_requested,owner_right_to_be_forgotten_performed,time_of_data_deletion,third_party_access_provided_to,third_party_data_share_enabled
+55977842,12377,Anna,Lindmann,Germany,na,TRUE,TRUE,2019-07-22 12:09,FALSE,FALSE,na,"Allianz, Datev, Dekra, Facebook, Google, Zalando",TRUE
+55977843,12378,Claire,Vogue,France,na,FALSE,FALSE,2019-07-29 12:09,TRUE,TRUE,2019-12-29 10:09,na,FALSE
+55977844,12379,Adam,Smith,United States,California,FALSE,FALSE,2020-01-22 12:09,FALSE,FALSE,na,"Amazon, Apple, Facebook, Google, Instacart, Tencent",FALSE
+55977845,12376,Jon,Dunkin,United States,New York,FALSE,FALSE,2019-12-22 12:09,FALSE,FALSE,na,"Amazon, Apple, Facebook, Mastercard, Visa",TRUE
