@@ -1,4 +1,4 @@
-id,First Name,Last Name,Applicable Law,Applicable State,"Owner ""Right to Access"" requested","Owner ""Right to Access"" performed",Last Access by Owner,"Owner ""Right to be Forgotten"" requested","Owner ""Right to be Forgotten"" performed",Time of data deletion,3rd Party Access Provided to,3rd Party Data Share Enabled
+id,first_name,last_name,applicable_law,applicable_state,owner_right_to_access_requested,owner_right_to_access_performed,last_access_by_owner,owner_right_to_be_forgotten_requested,owner_right_to_be_forgotten_performed,time_of_data_deletion,third_party_access_provided_to,third_party_data_share_enabled
 55977842,Anna,Lindmann,Germany,na,TRUE,TRUE,2019-07-22 12:09,FALSE,FALSE,na,"Allianz, Datev, Dekra, Facebook, Google, Zalando",TRUE
 55977843,Claire,Vogue,France,na,FALSE,FALSE,2019-07-29 12:09,TRUE,TRUE,2019-12-29 10:09,na,FALSE
 55977844,Adam,Smith,United States,California,FALSE,FALSE,2020-01-22 12:09,FALSE,FALSE,na,"Amazon, Apple, Facebook, Google, Instacart, Tencent",FALSE
