@@ -1,2 +1,3 @@
-id,real_id,name,last_name,phone_number
-VIADUCTTESTING006,1,John,Smith,+1234567890
+id,vin,name,last_name,phone_number
+1,VIADUCTTESTING006,John,Smith,+1234567890
+2,VIADUCTTESTING009,Jane,Doe,+1555234567
