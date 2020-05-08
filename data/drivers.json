@@ -1,0 +1,29 @@
+[
+  {
+    "idType": "USB",
+    "oemDriverIdentification": "AAA-123-DDD",
+    "cardRenewalIndex": "2",
+    "cardReplacementIndex": "0",
+    "id": "12345678901234",
+    "cardIssuingMemberState": "S",
+    "driverAuthenticationEquipment": "DRIVER_CARD"
+  },
+  {
+    "idType": "USB",
+    "oemDriverIdentification": "CCC-123-FFF",
+    "cardRenewalIndex": "5",
+    "cardReplacementIndex": "0",
+    "id": "11145678901234",
+    "cardIssuingMemberState": "S",
+    "driverAuthenticationEquipment": "DRIVER_CARD"
+  },
+  {
+    "idType": "USB",
+    "oemDriverIdentification": "ABC-123-DEF",
+    "cardRenewalIndex": "0",
+    "cardReplacementIndex": "0",
+    "id": "33345678901234",
+    "cardIssuingMemberState": "S",
+    "driverAuthenticationEquipment": "DRIVER_CARD"
+  }
+]
