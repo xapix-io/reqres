@@ -3818,10 +3818,10 @@ strong-globalize@^4.1.3:
     os-locale "^3.1.0"
     yamljs "^0.3.0"
 
-strong-soap@^1.19.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-1.21.0.tgz#14106001b3b3310391bddc6988a683970582c74c"
-  integrity sha512-ahHGZRzICF/t1QYWXP7/J6djyz9CW9z48fSPoCbEX2lgsPIJ/gGirX3ik2tmIamKDfgmzW+rmZBXJ7YLd2NcJQ==
+strong-soap@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strong-soap/-/strong-soap-2.0.0.tgz#24090e45375a757fd85705992ab1545fd709d9fc"
+  integrity sha512-7R4adLW/EnPuN4pFDq5wSSHjzuEByuVGOUpY5mDpY3xRNw3NC5Rvo6sgM9UydGDnVfOw4bQAJ5X2xDgRQPpVrw==
   dependencies:
     compress "^0.99.0"
     debug "^4.1.1"
