@@ -32,9 +32,11 @@ var BLZService = {
     BLZServiceSOAP11port_http: {
       getBank: function(args) {
         if (args.error) {
-          throw soapErrors[args.error];
+          throw soapErrors[args.error]
         } else {
-          return blz_data[args.blz] || {}
+          data = blz_data[args.blz]
+          if (!data) throw soapErrors.soap11
+          return blz_data[args.blz]
         }
       }
     }
