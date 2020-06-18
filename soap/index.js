@@ -34,9 +34,17 @@ var BLZService = {
         if (args.error) {
           throw soapErrors[args.error]
         } else {
-          data = blz_data[args.blz]
-          if (!data) throw soapErrors.soap11
-          return blz_data[args.blz]
+          if (args.blz == 'soap11fault') {
+            throw soapErrors.soap11
+          }
+          else if (args.blz == 'soap12fault') {
+            throw soapErrors.soap12
+          }
+          else {
+            data = blz_data[args.blz]
+            if (!data) throw soapErrors.soap11
+            return blz_data[args.blz]
+          }
         }
       }
     }
